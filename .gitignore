@@ -1,0 +1,36 @@
+# Python build products and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated experiment artifacts (source code and concise reports remain tracked)
+wsl-support/**/outputs/
+*.mp4
+*.mkv
+*.avi
+*.zip
+*.log
+profile.txt
+wsl-support/*_render_check.png
+wsl-support/team-share/platform_check.png
+
+# Extracted hand-off archives duplicate the entire project.
+wsl-support/team-share/multiagent-envs-ML_*/
+
+# Author-specific WSL launch/configuration files
+EnterLinux.cmd
+RunVisionMPC.cmd
+configure_wsl.sh
+shell_wsl.sh
+requirements-wsl.lock.txt
+platform_check.png

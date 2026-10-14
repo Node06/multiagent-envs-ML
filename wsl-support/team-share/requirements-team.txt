@@ -1,0 +1,7 @@
+numpy==1.26.4
+scipy==1.14.1
+gymnasium==0.29.1
+pyglet==1.5.24
+six==1.17.0
+opencv-python==4.10.0.84
+matplotlib==3.9.4

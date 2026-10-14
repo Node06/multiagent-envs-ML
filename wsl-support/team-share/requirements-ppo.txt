@@ -1,0 +1,2 @@
+# Install separately from the CPU wheel index documented in the handoff guide.
+torch==2.6.0

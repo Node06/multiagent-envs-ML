@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "archive": "multiagent-envs-ML_MPC_PPO_team_20261013.zip",
+  "native_windows_python": "3.10",
+  "native_windows_path_tests": 3,
+  "native_windows_launcher_help": "passed",
+  "native_windows_full_graphics": "not tested; recipient must run check --ppo",
+  "moved_package_wsl": {
+    "rgb_rendering_and_detection": "passed",
+    "mpc_v2_action": "passed",
+    "local_checkpoint_loading": "passed; checkpoint chosen inside extracted package",
+    "ppo_cpu_inference_and_environment_step": "passed",
+    "mpc_tests": 13,
+    "ppo_and_migration_tests": 10,
+    "default_demo": "obstacle_collision at step 171; matches original"
+  },
+  "distribution_checks": ["zip CRC", "every listed file SHA256", "required source, guides, models and results present", "no virtual environments, caches or author-only launcher"]
+}
