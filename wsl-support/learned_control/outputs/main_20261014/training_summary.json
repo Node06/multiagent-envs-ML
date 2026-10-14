@@ -1,0 +1,16 @@
+{
+  "seed": 1401,
+  "cnn_training": {
+    "step": 1000,
+    "loss": 0.007559799123555422,
+    "balanced_pixel_accuracy": 0.9970703125
+  },
+  "expert_outcomes": {
+    "success": 160
+  },
+  "demonstration_samples": 10833,
+  "ppo_steps": 16384,
+  "validation_best": 0.8,
+  "seconds": 3389.778534493,
+  "original_integrity": "passed"
+}

@@ -1,0 +1,19 @@
+{
+  "ppo_seed11": {
+    "episodes": 3,
+    "successes": 1,
+    "success_rate": 0.3333333333333333,
+    "success_rate_95ci": [
+      0.0614903152761605,
+      0.7923450448735121
+    ],
+    "outcomes": {
+      "caught": 1,
+      "obstacle_collision": 1,
+      "success": 1
+    },
+    "mean_success_steps": 47.0,
+    "mean_episode_decision_p50_ms": 0.2879983334575324,
+    "mean_episode_step_with_vision_p50_ms": 14.867522333209612
+  }
+}

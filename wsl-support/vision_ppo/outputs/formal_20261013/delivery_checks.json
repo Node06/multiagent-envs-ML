@@ -1,0 +1,6 @@
+{
+  "representative_replays": "matched frozen outcomes and steps",
+  "default_demo": "recorded",
+  "core_tests": "passed",
+  "compileall": "passed"
+}

@@ -1,0 +1,63 @@
+{
+  "original_integrity": "passed",
+  "scenes": 200,
+  "hunter_stationary_test": {
+    "reason": "caught",
+    "steps": 29,
+    "min_command_alignment_cosine": 1.0
+  },
+  "course_fixed_obstacles": {
+    "hunter": {
+      "mean_pixels": 0.05681086172710972,
+      "p95_pixels": 0.10820846630181716,
+      "max_pixels": 0.12385854369420254
+    },
+    "evader": {
+      "mean_pixels": 0.06733958254730893,
+      "p95_pixels": 0.12288222329452006,
+      "max_pixels": 0.13788159855308268
+    },
+    "goal": {
+      "mean_pixels": 0.3809583548661809,
+      "p95_pixels": 0.5799070656955243,
+      "max_pixels": 0.6870354857983293
+    },
+    "obstacles": {
+      "mean_pixels": 4.440892098500626e-14,
+      "p95_pixels": 4.440892098500626e-14,
+      "max_pixels": 4.440892098500626e-14
+    },
+    "radius_error": {
+      "mean_pixels": 0.03693466668743262,
+      "p95_pixels": 0.036934666687432616,
+      "max_pixels": 0.036934666687432616
+    }
+  },
+  "random_obstacles_stress": {
+    "hunter": {
+      "mean_pixels": 0.06993155896451389,
+      "p95_pixels": 0.12890224870577766,
+      "max_pixels": 0.15497664147187945
+    },
+    "evader": {
+      "mean_pixels": 0.06355291301993828,
+      "p95_pixels": 0.1267340361376534,
+      "max_pixels": 0.1429797952057337
+    },
+    "goal": {
+      "mean_pixels": 0.3847619178903291,
+      "p95_pixels": 0.5821278339537928,
+      "max_pixels": 0.6896805268019099
+    },
+    "obstacles": {
+      "mean_pixels": 0.051113229153454676,
+      "p95_pixels": 0.06752274799346536,
+      "max_pixels": 0.08142448702468466
+    },
+    "radius_error": {
+      "mean_pixels": 0.09306938098328722,
+      "p95_pixels": 0.11681920214303143,
+      "max_pixels": 0.12482531513032802
+    }
+  }
+}

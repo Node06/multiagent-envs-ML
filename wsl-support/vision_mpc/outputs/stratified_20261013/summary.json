@@ -1,0 +1,31 @@
+{
+  "astar": {
+    "episodes": 120,
+    "successes": 57,
+    "success_rate": 0.475,
+    "success_rate_95ci": [
+      0.3878193727928457,
+      0.5637316407599509
+    ],
+    "outcomes": {
+      "caught": 40,
+      "obstacle_collision": 23,
+      "success": 57
+    },
+    "mean_success_steps": 33.59649122807018
+  },
+  "mpc": {
+    "episodes": 120,
+    "successes": 118,
+    "success_rate": 0.9833333333333333,
+    "success_rate_95ci": [
+      0.9412628731870861,
+      0.9954175314588486
+    ],
+    "outcomes": {
+      "caught": 2,
+      "success": 118
+    },
+    "mean_success_steps": 38.644067796610166
+  }
+}

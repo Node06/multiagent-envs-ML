@@ -1,0 +1,33 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "opencv-python": "4.10.0.84",
+    "pyglet": "1.5.24",
+    "gymnasium": "0.29.1",
+    "matplotlib": "3.9.4"
+  },
+  "source_sha256": {
+    "__init__.py": "facc8421c383ddbf91cf0bb394f30a9d4852f859e2b2bfee6f5d89df53266f1c",
+    "config.json": "7d3026cbc9aba132bb304387a26d86dfbfe85cfc5f6a46e7848c13f9c6adc61e",
+    "controller.py": "e4d73d2246cbb9f95f08a70bfa22cc7805f2726f24aa3daf60436ba249a6a05a",
+    "dynamics.py": "3081a38daff1ddf3eea986498d35a90b46a7e0d6bcc83f7ba3be18e297245ecb",
+    "env_adapter.py": "1a8cfff2729862c6c7feb701bbf45cb4ac0bdd9aa603f654562ca979bb9827b2",
+    "evaluator.py": "0c05c95b3671d023f0fd3f3f300bf64603eaf5d42c496341239d138c2822357b",
+    "geometry.py": "e41b8ba193a58f1f8730b01671233701f581df2b47ba3a82a333f1018a28c964",
+    "global_planner.py": "bf92c4d55006a2a43602192204d3e4e4f54b3dac3d524589ce157c48cddb7845",
+    "perception.py": "595bf873551d48d404f7f0164eea2a7544a72f17dd98fed273cceeb5a44e4450",
+    "record_manifest.py": "fbcbc0315ba5075c66b4c1705ff87d66aea39ce60b3cfac981522201891ace27",
+    "replay.py": "ecd2ac86aa2b5694adcd225a480bcaae1e8108d51e44ef64c69d12c969568975",
+    "report.py": "5aa9d5d58b9d1fb97ba8000126ae112c376913dcf4f796407c13af46500b7c8a",
+    "run.py": "ca09d915dfa73173118844ea26d6f448ada97e2b6f55f0a967c379355c9767fb",
+    "state_estimator.py": "a5c8609cfeb235efe216b5ffa6fc422d7c0c6a0fede62cdbb9eb3fe6c36c24a9",
+    "tests/test_core.py": "ef79cfb6ad37e1038df6a4dc0b56c841a24a00fead7b21f7dca113724acdaef0",
+    "visualize.py": "2ec4c73b3820e11a4c21b148e957696048f1599c5041bcb62064c002ffb7e97e"
+  },
+  "official_test": "outputs/final_test/cases.json",
+  "test_config": "outputs/final_test/config.json",
+  "notes": "Controller parameters frozen before final test. Later changes concern display context, close handling and reporting only."
+}

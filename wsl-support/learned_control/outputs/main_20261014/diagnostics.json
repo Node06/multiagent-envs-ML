@@ -1,0 +1,28 @@
+{
+  "course_fixed_obstacles": {
+    "max_center_error_pixels": 6.653655456219791,
+    "median_episode_mean_center_error_pixels": 0.18603609375560265,
+    "minimum_hunter_command_cosine": 0.9999999999999997,
+    "no_hunter_obstacle_contact": {
+      "episodes": 51,
+      "successes": 34
+    },
+    "with_hunter_obstacle_contact": {
+      "episodes": 9,
+      "successes": 8
+    }
+  },
+  "random_obstacles_stress": {
+    "max_center_error_pixels": 7.372043231316693,
+    "median_episode_mean_center_error_pixels": 0.25940889930202393,
+    "minimum_hunter_command_cosine": 0.9999999999999998,
+    "no_hunter_obstacle_contact": {
+      "episodes": 28,
+      "successes": 20
+    },
+    "with_hunter_obstacle_contact": {
+      "episodes": 2,
+      "successes": 2
+    }
+  }
+}

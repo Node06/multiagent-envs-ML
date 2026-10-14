@@ -1,0 +1,43 @@
+{
+  "direct": {
+    "episodes": 12,
+    "successes": 8,
+    "success_rate": 0.6666666666666666,
+    "outcomes": {
+      "caught": 2,
+      "obstacle_collision": 2,
+      "success": 8
+    },
+    "mean_success_steps": 33.375
+  },
+  "astar": {
+    "episodes": 12,
+    "successes": 9,
+    "success_rate": 0.75,
+    "outcomes": {
+      "caught": 1,
+      "obstacle_collision": 2,
+      "success": 9
+    },
+    "mean_success_steps": 35.44444444444444
+  },
+  "mpc": {
+    "episodes": 12,
+    "successes": 12,
+    "success_rate": 1.0,
+    "outcomes": {
+      "success": 12
+    },
+    "mean_success_steps": 36.166666666666664
+  },
+  "no_hunter": {
+    "episodes": 12,
+    "successes": 10,
+    "success_rate": 0.8333333333333334,
+    "outcomes": {
+      "caught": 2,
+      "success": 10
+    },
+    "mean_success_steps": 34.7
+  }
+}

@@ -1,0 +1,3 @@
+case,method,reason,steps,group,seconds,decision_p50_ms,decision_p95_ms,unsafe_predictions,min_hunter_center_distance,min_obstacle_center_distance,max_center_error_pixels,mean_one_step_prediction_error,hunter_obstacle_contact_frames,recovery_steps,hunter_obstacle_min_distance
+hunter_gap_008_012_007,mpc,success,45,hunter_gap_008_012,5.746,77.82,240.84,2,0.05886,0.09201,3.578,0.00027,3,5,0.05169
+near_obstacle_goal_000,mpc,success,19,near_obstacle_goal,2.49,79.51,189.48,0,0.15405,0.09527,2.917,9e-05,3,9,0.05505

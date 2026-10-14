@@ -1,0 +1,59 @@
+{
+  "direct": {
+    "episodes": 100,
+    "successes": 69,
+    "success_rate": 0.69,
+    "success_rate_95ci": [
+      0.5937376052204429,
+      0.7722043679386762
+    ],
+    "outcomes": {
+      "caught": 7,
+      "obstacle_collision": 24,
+      "success": 69
+    },
+    "mean_success_steps": 28.92753623188406
+  },
+  "astar": {
+    "episodes": 100,
+    "successes": 72,
+    "success_rate": 0.72,
+    "success_rate_95ci": [
+      0.6251178763865427,
+      0.7986044083240164
+    ],
+    "outcomes": {
+      "caught": 12,
+      "obstacle_collision": 16,
+      "success": 72
+    },
+    "mean_success_steps": 30.01388888888889
+  },
+  "mpc": {
+    "episodes": 100,
+    "successes": 100,
+    "success_rate": 1.0,
+    "success_rate_95ci": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "outcomes": {
+      "success": 100
+    },
+    "mean_success_steps": 33.45
+  },
+  "no_hunter": {
+    "episodes": 100,
+    "successes": 90,
+    "success_rate": 0.9,
+    "success_rate_95ci": [
+      0.8256326956323347,
+      0.9447714583868639
+    ],
+    "outcomes": {
+      "caught": 10,
+      "success": 90
+    },
+    "mean_success_steps": 31.977777777777778
+  }
+}

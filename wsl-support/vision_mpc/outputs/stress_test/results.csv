@@ -1,0 +1,9 @@
+case,method,reason,steps,seconds,decision_p50_ms,decision_p95_ms,unsafe_predictions,min_hunter_center_distance,min_obstacle_center_distance,max_center_error_pixels,mean_one_step_prediction_error
+near_pursuit,mpc,caught,4,2.119,110.11,1505.24,4,0.05337,0.13098,2.255,0.00022
+hunter_blocks_goal,mpc,success,50,5.775,108.69,129.86,1,0.0652,0.28913,0.139,0.00029
+edge_goal,mpc,success,45,4.861,100.66,119.7,0,0.39089,0.17647,0.152,0.00028
+narrow_obstacle_start,mpc,success,44,4.608,97.61,111.44,0,0.31128,0.08827,0.136,0.00031
+cross_map,mpc,success,82,9.013,104.99,129.4,0,0.07184,0.09026,0.156,0.00028
+corner_start,mpc,success,88,9.813,107.04,126.44,0,0.16878,0.15606,2.19,0.00033
+near_goal_hunter,mpc,success,61,6.819,106.77,136.28,0,0.06168,0.09827,0.168,0.0003
+long_detour,mpc,success,80,8.45,101.51,120.37,0,0.07419,0.08211,6.272,0.00034

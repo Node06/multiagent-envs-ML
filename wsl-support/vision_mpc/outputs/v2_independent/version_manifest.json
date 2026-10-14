@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "controller.py": "e4d73d2246cbb9f95f08a70bfa22cc7805f2726f24aa3daf60436ba249a6a05a",
+    "controller_v1.py": "e4d73d2246cbb9f95f08a70bfa22cc7805f2726f24aa3daf60436ba249a6a05a",
+    "controller_v2.py": "778583fbe50cb2af2dbc4be69d1c391a43db7ac4637587f4fd4f0656f8475b5e",
+    "dynamics.py": "3081a38daff1ddf3eea986498d35a90b46a7e0d6bcc83f7ba3be18e297245ecb",
+    "env_adapter.py": "1a8cfff2729862c6c7feb701bbf45cb4ac0bdd9aa603f654562ca979bb9827b2",
+    "evaluator.py": "e5989e883a614b624ed0eb52b31557ca3f72d482aaa0e30b6b6dbf09d10e68fc",
+    "geometry.py": "e41b8ba193a58f1f8730b01671233701f581df2b47ba3a82a333f1018a28c964",
+    "global_planner.py": "bf92c4d55006a2a43602192204d3e4e4f54b3dac3d524589ce157c48cddb7845",
+    "make_replays.py": "f4a8c474495f06e8138a753a142b51f7f98df47e7759bed07f4b47a488ba81f2",
+    "optimization_report.py": "a92439dc10e301ef895648493f6d8ca3c7b9a331b925e5836aca65e6253c93ae",
+    "perception.py": "595bf873551d48d404f7f0164eea2a7544a72f17dd98fed273cceeb5a44e4450",
+    "record_manifest.py": "98c56c4934f071b185c3e9e4d714285206618b25f234cac8fd85168faa1623c5",
+    "replay.py": "ecd2ac86aa2b5694adcd225a480bcaae1e8108d51e44ef64c69d12c969568975",
+    "report.py": "72df5863aa6019bc99d9a9c1031eacf3ef070cf7c6788669111f30c2369bd085",
+    "run.py": "eed5255cf1634669d3084276ece65e1fec3c06afa99ba8d090f81f2421c0e17f",
+    "state_estimator.py": "a5c8609cfeb235efe216b5ffa6fc422d7c0c6a0fede62cdbb9eb3fe6c36c24a9",
+    "stratified_cases.py": "3c458261536f392a85033dc7a7c7fc8063d727f4e462222e4dce10c400dde540",
+    "stratified_report.py": "d0e08749e84176d8139110d583cdb1dc2010b185d804b7790c9cfd4ed4babd70",
+    "visualize.py": "25258d1382b9918917893a83690d9da28c81d8cb37bf74549d8ebf4d62667661",
+    "__init__.py": "facc8421c383ddbf91cf0bb394f30a9d4852f859e2b2bfee6f5d89df53266f1c"
+  },
+  "baseline_matches_original": true,
+  "default_method": "mpc -> controller_v2",
+  "legacy_method": "mpc_v1 -> controller_v1"
+}

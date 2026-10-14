@@ -1,0 +1,5 @@
+case,method,reason,steps,group,seconds,decision_p50_ms,decision_p95_ms,unsafe_predictions,min_hunter_center_distance,min_obstacle_center_distance,max_center_error_pixels,mean_one_step_prediction_error,hunter_obstacle_contact_frames,recovery_steps,hunter_obstacle_min_distance
+hunter_gap_008_012_007,mpc_v1,caught,3,hunter_gap_008_012,2.672,126.52,2154.59,3,0.06605,0.40844,0.075,6e-05,0,0,0.34305
+near_obstacle_goal_000,mpc_v1,caught,14,near_obstacle_goal,1.882,112.4,211.29,12,0.07165,0.11004,0.118,0.00038,0,0,0.14032
+hunter_gap_008_012_007,mpc,success,45,hunter_gap_008_012,6.639,113.02,370.61,2,0.05886,0.09201,3.578,0.00027,3,5,0.05169
+near_obstacle_goal_000,mpc,success,19,near_obstacle_goal,3.566,116.55,279.59,0,0.15405,0.09527,2.917,9e-05,3,9,0.05505

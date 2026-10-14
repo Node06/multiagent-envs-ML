@@ -1,0 +1,301 @@
+{
+  "ordinary": {
+    "astar": {
+      "n": 12,
+      "success": 11,
+      "rate": 0.9166666666666666,
+      "ci": [
+        0.6461140782014047,
+        0.9851352905492264
+      ],
+      "outcomes": {
+        "obstacle_collision": 1,
+        "success": 11
+      },
+      "hunter_contact_episodes": 2
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 2
+    }
+  },
+  "hunter_gap_008_012": {
+    "astar": {
+      "n": 12,
+      "success": 2,
+      "rate": 0.16666666666666666,
+      "ci": [
+        0.04696414761482223,
+        0.44803635738467273
+      ],
+      "outcomes": {
+        "caught": 9,
+        "obstacle_collision": 1,
+        "success": 2
+      },
+      "hunter_contact_episodes": 0
+    },
+    "mpc": {
+      "n": 12,
+      "success": 11,
+      "rate": 0.9166666666666666,
+      "ci": [
+        0.6461140782014047,
+        0.9851352905492264
+      ],
+      "outcomes": {
+        "caught": 1,
+        "success": 11
+      },
+      "hunter_contact_episodes": 0
+    }
+  },
+  "hunter_gap_012_020": {
+    "astar": {
+      "n": 12,
+      "success": 2,
+      "rate": 0.16666666666666666,
+      "ci": [
+        0.04696414761482223,
+        0.44803635738467273
+      ],
+      "outcomes": {
+        "caught": 6,
+        "obstacle_collision": 4,
+        "success": 2
+      },
+      "hunter_contact_episodes": 0
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 1
+    }
+  },
+  "hunter_gap_020_035": {
+    "astar": {
+      "n": 12,
+      "success": 8,
+      "rate": 0.6666666666666666,
+      "ci": [
+        0.3906175873976139,
+        0.8618821601026385
+      ],
+      "outcomes": {
+        "caught": 2,
+        "obstacle_collision": 2,
+        "success": 8
+      },
+      "hunter_contact_episodes": 1
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 2
+    }
+  },
+  "hunter_blocks_route": {
+    "astar": {
+      "n": 12,
+      "success": 2,
+      "rate": 0.16666666666666666,
+      "ci": [
+        0.04696414761482223,
+        0.44803635738467273
+      ],
+      "outcomes": {
+        "caught": 9,
+        "obstacle_collision": 1,
+        "success": 2
+      },
+      "hunter_contact_episodes": 0
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 2
+    }
+  },
+  "edge_goal": {
+    "astar": {
+      "n": 12,
+      "success": 7,
+      "rate": 0.5833333333333334,
+      "ci": [
+        0.3195073356553728,
+        0.8067425380947535
+      ],
+      "outcomes": {
+        "caught": 3,
+        "obstacle_collision": 2,
+        "success": 7
+      },
+      "hunter_contact_episodes": 3
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 3
+    }
+  },
+  "near_obstacle_start": {
+    "astar": {
+      "n": 12,
+      "success": 5,
+      "rate": 0.4166666666666667,
+      "ci": [
+        0.19325746190524656,
+        0.6804926643446272
+      ],
+      "outcomes": {
+        "obstacle_collision": 7,
+        "success": 5
+      },
+      "hunter_contact_episodes": 1
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 2
+    }
+  },
+  "near_obstacle_goal": {
+    "astar": {
+      "n": 12,
+      "success": 6,
+      "rate": 0.5,
+      "ci": [
+        0.2537781703934222,
+        0.7462218296065778
+      ],
+      "outcomes": {
+        "caught": 2,
+        "obstacle_collision": 4,
+        "success": 6
+      },
+      "hunter_contact_episodes": 0
+    },
+    "mpc": {
+      "n": 12,
+      "success": 11,
+      "rate": 0.9166666666666666,
+      "ci": [
+        0.6461140782014047,
+        0.9851352905492264
+      ],
+      "outcomes": {
+        "caught": 1,
+        "success": 11
+      },
+      "hunter_contact_episodes": 0
+    }
+  },
+  "corner_start": {
+    "astar": {
+      "n": 12,
+      "success": 8,
+      "rate": 0.6666666666666666,
+      "ci": [
+        0.3906175873976139,
+        0.8618821601026385
+      ],
+      "outcomes": {
+        "caught": 4,
+        "success": 8
+      },
+      "hunter_contact_episodes": 3
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 3
+    }
+  },
+  "long_route": {
+    "astar": {
+      "n": 12,
+      "success": 6,
+      "rate": 0.5,
+      "ci": [
+        0.2537781703934222,
+        0.7462218296065778
+      ],
+      "outcomes": {
+        "caught": 5,
+        "obstacle_collision": 1,
+        "success": 6
+      },
+      "hunter_contact_episodes": 5
+    },
+    "mpc": {
+      "n": 12,
+      "success": 12,
+      "rate": 1.0,
+      "ci": [
+        0.7574992425007574,
+        1.0
+      ],
+      "outcomes": {
+        "success": 12
+      },
+      "hunter_contact_episodes": 2
+    }
+  }
+}

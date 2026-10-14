@@ -1,0 +1,85 @@
+{
+  "astar": {
+    "episodes": 60,
+    "successes": 36,
+    "success_rate": 0.6,
+    "success_rate_95ci": [
+      0.47365824394206846,
+      0.714306969962345
+    ],
+    "outcomes": {
+      "caught": 12,
+      "obstacle_collision": 12,
+      "success": 36
+    },
+    "mean_success_steps": 32.583333333333336,
+    "mean_episode_decision_p50_ms": 0.06669574998265186,
+    "mean_episode_step_with_vision_p50_ms": 14.109270725028486
+  },
+  "mpc_v1": {
+    "episodes": 60,
+    "successes": 60,
+    "success_rate": 1.0,
+    "success_rate_95ci": [
+      0.9398260695220669,
+      0.9999999999999999
+    ],
+    "outcomes": {
+      "success": 60
+    },
+    "mean_success_steps": 37.38333333333333,
+    "mean_episode_decision_p50_ms": 49.428510750002864,
+    "mean_episode_step_with_vision_p50_ms": 64.20902647498299
+  },
+  "ppo_seed11": {
+    "episodes": 60,
+    "successes": 12,
+    "success_rate": 0.2,
+    "success_rate_95ci": [
+      0.11828389736858964,
+      0.3178204609181701
+    ],
+    "outcomes": {
+      "caught": 15,
+      "obstacle_collision": 33,
+      "success": 12
+    },
+    "mean_success_steps": 104.33333333333333,
+    "mean_episode_decision_p50_ms": 0.2780397666773145,
+    "mean_episode_step_with_vision_p50_ms": 14.168194141632284
+  },
+  "ppo_seed23": {
+    "episodes": 60,
+    "successes": 7,
+    "success_rate": 0.11666666666666667,
+    "success_rate_95ci": [
+      0.05767647403450049,
+      0.2217902059985814
+    ],
+    "outcomes": {
+      "caught": 31,
+      "obstacle_collision": 22,
+      "success": 7
+    },
+    "mean_success_steps": 63.0,
+    "mean_episode_decision_p50_ms": 0.27779002501802097,
+    "mean_episode_step_with_vision_p50_ms": 14.112624008305374
+  },
+  "ppo_seed37": {
+    "episodes": 60,
+    "successes": 3,
+    "success_rate": 0.05,
+    "success_rate_95ci": [
+      0.01714919117914121,
+      0.13700734625099836
+    ],
+    "outcomes": {
+      "caught": 30,
+      "obstacle_collision": 27,
+      "success": 3
+    },
+    "mean_success_steps": 79.33333333333333,
+    "mean_episode_decision_p50_ms": 0.28544402500377447,
+    "mean_episode_step_with_vision_p50_ms": 14.785957316667009
+  }
+}

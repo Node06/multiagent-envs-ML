@@ -1,0 +1,57 @@
+[
+  {
+    "step": 1,
+    "loss": 1.7992810010910034,
+    "balanced_pixel_accuracy": 0.22607421875
+  },
+  {
+    "step": 101,
+    "loss": 0.3837665617465973,
+    "balanced_pixel_accuracy": 0.88671875
+  },
+  {
+    "step": 201,
+    "loss": 0.10963262617588043,
+    "balanced_pixel_accuracy": 0.96484375
+  },
+  {
+    "step": 301,
+    "loss": 0.05573521926999092,
+    "balanced_pixel_accuracy": 0.97705078125
+  },
+  {
+    "step": 401,
+    "loss": 0.037361688911914825,
+    "balanced_pixel_accuracy": 0.9853515625
+  },
+  {
+    "step": 501,
+    "loss": 0.02521788328886032,
+    "balanced_pixel_accuracy": 0.99560546875
+  },
+  {
+    "step": 601,
+    "loss": 0.021213313564658165,
+    "balanced_pixel_accuracy": 1.0
+  },
+  {
+    "step": 701,
+    "loss": 0.013954336754977703,
+    "balanced_pixel_accuracy": 0.9970703125
+  },
+  {
+    "step": 801,
+    "loss": 0.013759701512753963,
+    "balanced_pixel_accuracy": 1.0
+  },
+  {
+    "step": 901,
+    "loss": 0.01283718179911375,
+    "balanced_pixel_accuracy": 0.99462890625
+  },
+  {
+    "step": 1000,
+    "loss": 0.007559799123555422,
+    "balanced_pixel_accuracy": 0.9970703125
+  }
+]

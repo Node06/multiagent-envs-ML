@@ -1,0 +1,13 @@
+{
+  "case": "default_demo",
+  "group": "course_fixed_obstacles",
+  "method": "learned",
+  "reason": "caught",
+  "steps": 22,
+  "decision_including_cnn_p50_ms": 35.77211299989358,
+  "max_center_error_pixels": 2.8805693474402996,
+  "mean_center_error_pixels": 0.13179252503951627,
+  "hunter_obstacle_contact_frames": 3,
+  "min_hunter_command_alignment_cosine": 0.9999999999999998,
+  "min_hunter_center_distance": 0.07186161587895656
+}

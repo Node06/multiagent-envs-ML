@@ -1,0 +1,4 @@
+case,group,method,reason,steps,decision_including_cnn_p50_ms,max_center_error_pixels,mean_center_error_pixels,hunter_obstacle_contact_frames,min_hunter_command_alignment_cosine,min_hunter_center_distance
+s2026101404_000,course_fixed_obstacles,learned,success,26,39.88943149999358,0.5235513287354314,0.18628134762022602,0,0.9999999999999998,0.5684282456826026
+s2026101404_026,course_fixed_obstacles,learned,caught,26,39.06209200000177,0.38385062499997596,0.16838997137421766,0,0.9999999999999997,0.05289690523180424
+s2026101404_007,course_fixed_obstacles,learned,obstacle_collision,13,45.92448100000013,0.40303273748305407,0.15455411664786206,0,1.0,0.2489544900146906

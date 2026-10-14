@@ -1,0 +1,15 @@
+{
+  "mpc": {
+    "episodes": 120,
+    "successes": 120,
+    "success_rate": 1.0,
+    "success_rate_95ci": [
+      0.9689797289440706,
+      1.0
+    ],
+    "outcomes": {
+      "success": 120
+    },
+    "mean_success_steps": 38.71666666666667
+  }
+}

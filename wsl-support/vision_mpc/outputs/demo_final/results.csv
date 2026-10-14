@@ -1,0 +1,2 @@
+case,method,reason,steps,seconds,decision_p50_ms,decision_p95_ms,unsafe_predictions,min_hunter_center_distance,min_obstacle_center_distance,max_center_error_pixels,mean_one_step_prediction_error
+demo,mpc,success,74,11.576,128.76,147.05,0,0.08035,0.08029,6.186,0.0003

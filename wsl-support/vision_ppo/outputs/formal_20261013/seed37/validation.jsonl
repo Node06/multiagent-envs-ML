@@ -1,0 +1,8 @@
+{"success_rate": 0.1, "outcomes": {"obstacle_collision": 4, "caught": 14, "success": 2}, "mean_success_steps": 70.5, "steps": 16384, "seed": 37}
+{"success_rate": 0.05, "outcomes": {"caught": 17, "obstacle_collision": 2, "success": 1}, "mean_success_steps": 13.0, "steps": 32768, "seed": 37}
+{"success_rate": 0.15, "outcomes": {"caught": 14, "obstacle_collision": 3, "success": 3}, "mean_success_steps": 26.0, "steps": 49152, "seed": 37}
+{"success_rate": 0.15, "outcomes": {"obstacle_collision": 7, "caught": 10, "success": 3}, "mean_success_steps": 38.666666666666664, "steps": 65536, "seed": 37}
+{"success_rate": 0.2, "outcomes": {"obstacle_collision": 7, "caught": 9, "success": 4}, "mean_success_steps": 53.25, "steps": 81920, "seed": 37}
+{"success_rate": 0.1, "outcomes": {"obstacle_collision": 6, "caught": 12, "success": 2}, "mean_success_steps": 19.0, "steps": 98304, "seed": 37}
+{"success_rate": 0.1, "outcomes": {"obstacle_collision": 8, "caught": 10, "success": 2}, "mean_success_steps": 19.5, "steps": 114688, "seed": 37}
+{"success_rate": 0.1, "outcomes": {"obstacle_collision": 8, "caught": 9, "success": 2, "timeout": 1}, "mean_success_steps": 24.0, "steps": 131072, "seed": 37}

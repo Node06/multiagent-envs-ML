@@ -1,0 +1,11 @@
+{
+  "criterion": "PPO-stage validation only; no test selection",
+  "success_rate": 0.75,
+  "outcomes": {
+    "caught": 5,
+    "success": 30,
+    "obstacle_collision": 5
+  },
+  "mean_success_steps": 35.233333333333334,
+  "stage": "ppo16384"
+}

@@ -1,0 +1,52 @@
+{
+  "checkpoints": [
+    {
+      "method": "ppo_seed11",
+      "path": "/mnt/e/Materials/MachineLearning/lab/multiagent-envs-ML/wsl-support/vision_ppo/outputs/formal_20261013/seed11/best.pt",
+      "steps": 65536,
+      "validation_success": 0.45,
+      "sha256": "4e9e293fff8276cb8671dae931eb9906705caf45703733c48b8f7b85fb4afc57"
+    }
+  ],
+  "ppo_config": {
+    "total_steps": 131072,
+    "rollout_steps": 2048,
+    "batch_size": 256,
+    "epochs": 10,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip": 0.2,
+    "value_coef": 0.5,
+    "entropy_coef": 0.005,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.02,
+    "hidden": 128,
+    "max_steps": 500,
+    "dt": 0.1,
+    "success_reward": 20.0,
+    "failure_reward": -20.0,
+    "step_cost": 0.01,
+    "potential_scale": 5.0,
+    "validation_interval": 16384,
+    "validation_count": 20,
+    "validation_seed": 6101301,
+    "curriculum_fraction": 0.35,
+    "torch_threads": 1
+  },
+  "mpc_config": {
+    "dt": 0.1,
+    "grid_resolution": 0.02,
+    "obstacle_clearance": 0.09,
+    "map_bound": 0.8,
+    "horizon": 30,
+    "samples": 72,
+    "iterations": 2,
+    "chunk_steps": 5,
+    "hunter_clearance": 0.07,
+    "max_steps": 500,
+    "seed": 42,
+    "lookahead": 0.22,
+    "hunter_weight": 1.5
+  }
+}

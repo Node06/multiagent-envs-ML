@@ -1,0 +1,40 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "opencv-python": "4.10.0.84",
+    "pyglet": "1.5.24",
+    "gymnasium": "0.29.1",
+    "matplotlib": "3.9.4"
+  },
+  "source_sha256": {
+    "__init__.py": "facc8421c383ddbf91cf0bb394f30a9d4852f859e2b2bfee6f5d89df53266f1c",
+    "config.json": "7d3026cbc9aba132bb304387a26d86dfbfe85cfc5f6a46e7848c13f9c6adc61e",
+    "controller.py": "e4d73d2246cbb9f95f08a70bfa22cc7805f2726f24aa3daf60436ba249a6a05a",
+    "dynamics.py": "3081a38daff1ddf3eea986498d35a90b46a7e0d6bcc83f7ba3be18e297245ecb",
+    "env_adapter.py": "1a8cfff2729862c6c7feb701bbf45cb4ac0bdd9aa603f654562ca979bb9827b2",
+    "evaluator.py": "e5989e883a614b624ed0eb52b31557ca3f72d482aaa0e30b6b6dbf09d10e68fc",
+    "geometry.py": "e41b8ba193a58f1f8730b01671233701f581df2b47ba3a82a333f1018a28c964",
+    "global_planner.py": "bf92c4d55006a2a43602192204d3e4e4f54b3dac3d524589ce157c48cddb7845",
+    "make_replays.py": "f4a8c474495f06e8138a753a142b51f7f98df47e7759bed07f4b47a488ba81f2",
+    "perception.py": "595bf873551d48d404f7f0164eea2a7544a72f17dd98fed273cceeb5a44e4450",
+    "record_manifest.py": "98c56c4934f071b185c3e9e4d714285206618b25f234cac8fd85168faa1623c5",
+    "replay.py": "ecd2ac86aa2b5694adcd225a480bcaae1e8108d51e44ef64c69d12c969568975",
+    "report.py": "4b13bc336eabc8f16679c177a45484d6e38f01b53f8bb394129b984d6b6576ca",
+    "run.py": "a4ac3bc1653d83fc81cd41cc71b7791d077ba82e48ae4834e734d823661f61e5",
+    "state_estimator.py": "a5c8609cfeb235efe216b5ffa6fc422d7c0c6a0fede62cdbb9eb3fe6c36c24a9",
+    "stratified_cases.py": "3c458261536f392a85033dc7a7c7fc8063d727f4e462222e4dce10c400dde540",
+    "stratified_report.py": "d0e08749e84176d8139110d583cdb1dc2010b185d804b7790c9cfd4ed4babd70",
+    "tests/test_core.py": "238b6b1be31e2a54341b419fe126e848d15de2cb3dc6a3890e8761794dfbdb83",
+    "visualize.py": "2ec4c73b3820e11a4c21b148e957696048f1599c5041bcb62064c002ffb7e97e"
+  },
+  "official_test": "outputs/stratified_20261013/cases.json",
+  "test_config": "outputs/stratified_20261013/config.json",
+  "notes": "Controller parameters frozen before final test. Later changes concern display context, close handling and reporting only.",
+  "matches_original_controller": true,
+  "matches_original_dynamics": true,
+  "matches_original_config": true,
+  "case_count": 120
+}

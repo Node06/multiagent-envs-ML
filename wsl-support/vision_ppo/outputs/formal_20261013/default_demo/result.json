@@ -1,0 +1,13 @@
+{
+  "case": "demo",
+  "group": "ordinary",
+  "method": "ppo_seed11",
+  "reason": "obstacle_collision",
+  "steps": 171,
+  "seconds": 4.388403481000296,
+  "decision_p50_ms": 0.2890499999921303,
+  "decision_p95_ms": 0.3664020000542223,
+  "step_with_vision_p50_ms": 15.056833000016923,
+  "min_hunter_center_distance": 0.07435099614460723,
+  "min_obstacle_center_distance": 0.07093520401325976
+}

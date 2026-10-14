@@ -1,0 +1,7 @@
+{
+  "method": "ppo_seed11",
+  "path": "/mnt/e/Materials/MachineLearning/lab/multiagent-envs-ML/wsl-support/vision_ppo/outputs/formal_20261013/seed11/best.pt",
+  "steps": 65536,
+  "validation_success": 0.45,
+  "sha256": "4e9e293fff8276cb8671dae931eb9906705caf45703733c48b8f7b85fb4afc57"
+}

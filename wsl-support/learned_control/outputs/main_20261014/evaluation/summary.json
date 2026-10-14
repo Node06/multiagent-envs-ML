@@ -1,0 +1,164 @@
+{
+  "course_fixed_obstacles": {
+    "astar": {
+      "episodes": 60,
+      "successes": 43,
+      "success_rate": 0.7166666666666667,
+      "success_rate_95ci": [
+        0.5923247495026482,
+        0.8149332139569141
+      ],
+      "outcomes": {
+        "caught": 7,
+        "obstacle_collision": 10,
+        "success": 43
+      },
+      "mean_success_steps": 29.162790697674417,
+      "max_center_error_pixels": 6.0557448864264325
+    },
+    "mpc": {
+      "episodes": 60,
+      "successes": 60,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.9398260695220669,
+        0.9999999999999999
+      ],
+      "outcomes": {
+        "success": 60
+      },
+      "mean_success_steps": 34.45,
+      "max_center_error_pixels": 6.218061556782118
+    },
+    "old_ppo": {
+      "episodes": 60,
+      "successes": 13,
+      "success_rate": 0.21666666666666667,
+      "success_rate_95ci": [
+        0.13122921046407016,
+        0.3362026834734252
+      ],
+      "outcomes": {
+        "caught": 15,
+        "obstacle_collision": 32,
+        "success": 13
+      },
+      "mean_success_steps": 72.46153846153847,
+      "max_center_error_pixels": 5.498879044680696
+    },
+    "imitation": {
+      "episodes": 60,
+      "successes": 39,
+      "success_rate": 0.65,
+      "success_rate_95ci": [
+        0.5236238380947751,
+        0.7583239827618451
+      ],
+      "outcomes": {
+        "caught": 7,
+        "obstacle_collision": 13,
+        "perception_failure": 1,
+        "success": 39
+      },
+      "mean_success_steps": 34.333333333333336,
+      "max_center_error_pixels": 6.770975475140853
+    },
+    "learned": {
+      "episodes": 60,
+      "successes": 42,
+      "success_rate": 0.7,
+      "success_rate_95ci": [
+        0.5749105303360957,
+        0.801019897472731
+      ],
+      "outcomes": {
+        "caught": 5,
+        "obstacle_collision": 13,
+        "success": 42
+      },
+      "mean_success_steps": 34.11904761904762,
+      "max_center_error_pixels": 6.653655456219791
+    }
+  },
+  "random_obstacles_stress": {
+    "astar": {
+      "episodes": 30,
+      "successes": 22,
+      "success_rate": 0.7333333333333333,
+      "success_rate_95ci": [
+        0.5555169795568831,
+        0.8581750444608938
+      ],
+      "outcomes": {
+        "caught": 5,
+        "obstacle_collision": 1,
+        "perception_failure": 2,
+        "success": 22
+      },
+      "mean_success_steps": 26.636363636363637,
+      "max_center_error_pixels": 6.48810074337385
+    },
+    "mpc": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "mean_success_steps": 30.866666666666667,
+      "max_center_error_pixels": 6.929892944525642
+    },
+    "old_ppo": {
+      "episodes": 30,
+      "successes": 14,
+      "success_rate": 0.4666666666666667,
+      "success_rate_95ci": [
+        0.30232127224128236,
+        0.6385798671847496
+      ],
+      "outcomes": {
+        "caught": 6,
+        "obstacle_collision": 10,
+        "success": 14
+      },
+      "mean_success_steps": 111.71428571428571,
+      "max_center_error_pixels": 5.873829576782907
+    },
+    "imitation": {
+      "episodes": 30,
+      "successes": 21,
+      "success_rate": 0.7,
+      "success_rate_95ci": [
+        0.5212387898833981,
+        0.8333543735604105
+      ],
+      "outcomes": {
+        "caught": 5,
+        "obstacle_collision": 4,
+        "success": 21
+      },
+      "mean_success_steps": 32.666666666666664,
+      "max_center_error_pixels": 7.49192035502385
+    },
+    "learned": {
+      "episodes": 30,
+      "successes": 22,
+      "success_rate": 0.7333333333333333,
+      "success_rate_95ci": [
+        0.5555169795568831,
+        0.8581750444608938
+      ],
+      "outcomes": {
+        "caught": 4,
+        "obstacle_collision": 4,
+        "success": 22
+      },
+      "mean_success_steps": 28.545454545454547,
+      "max_center_error_pixels": 7.372043231316693
+    }
+  }
+}

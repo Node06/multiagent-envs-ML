@@ -1,0 +1,122 @@
+[
+  {
+    "id": "near_pursuit",
+    "hunter": [
+      0.38,
+      0.3
+    ],
+    "evader": [
+      0.5,
+      0.3
+    ],
+    "goal": [
+      -0.6,
+      -0.6
+    ]
+  },
+  {
+    "id": "hunter_blocks_goal",
+    "hunter": [
+      0.0,
+      0.0
+    ],
+    "evader": [
+      0.6,
+      0.0
+    ],
+    "goal": [
+      -0.6,
+      0.0
+    ]
+  },
+  {
+    "id": "edge_goal",
+    "hunter": [
+      -0.5,
+      -0.5
+    ],
+    "evader": [
+      0.5,
+      0.5
+    ],
+    "goal": [
+      0.79,
+      -0.6
+    ]
+  },
+  {
+    "id": "narrow_obstacle_start",
+    "hunter": [
+      -0.5,
+      -0.5
+    ],
+    "evader": [
+      0.45,
+      0.35
+    ],
+    "goal": [
+      -0.6,
+      0.6
+    ]
+  },
+  {
+    "id": "cross_map",
+    "hunter": [
+      0.0,
+      -0.7
+    ],
+    "evader": [
+      -0.7,
+      0.7
+    ],
+    "goal": [
+      0.7,
+      -0.7
+    ]
+  },
+  {
+    "id": "corner_start",
+    "hunter": [
+      0.3,
+      0.3
+    ],
+    "evader": [
+      0.79,
+      0.79
+    ],
+    "goal": [
+      -0.7,
+      -0.7
+    ]
+  },
+  {
+    "id": "near_goal_hunter",
+    "hunter": [
+      0.5,
+      -0.5
+    ],
+    "evader": [
+      -0.5,
+      0.5
+    ],
+    "goal": [
+      0.6,
+      -0.5
+    ]
+  },
+  {
+    "id": "long_detour",
+    "hunter": [
+      0.0,
+      0.1
+    ],
+    "evader": [
+      0.7,
+      0.6
+    ],
+    "goal": [
+      -0.7,
+      -0.6
+    ]
+  }
+]

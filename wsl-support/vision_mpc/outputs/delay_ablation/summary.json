@@ -1,0 +1,15 @@
+{
+  "no_delay": {
+    "episodes": 12,
+    "successes": 12,
+    "success_rate": 1.0,
+    "success_rate_95ci": [
+      0.7574992425007574,
+      1.0
+    ],
+    "outcomes": {
+      "success": 12
+    },
+    "mean_success_steps": 36.25
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "steps_per_seed": 131072,
+  "test_count": 60,
+  "test_seed": 6101399,
+  "started_unix": 1791868445.2869117,
+  "training_scheme": "independent on-policy PPO; no MPC demonstrations",
+  "selection": "highest validation success, then shortest successful episodes",
+  "source_sha256": {
+    "buffer.py": "27b9edce7e48139231c5a4302c5b2d8ca2a12184614e1377dc8d5cbface8b42a",
+    "cases.py": "f2727056c2dca7a39b0adf1f0762ff476bd216dadc9194da29e600ef31e9c8cf",
+    "env_wrapper.py": "b7386295dd747fb677b87a0609b5ee168affa76a0ef08da782791a2743c1c105",
+    "evaluate.py": "dbe99da6485ccee7a50bbfba9a6be637a16c357cdd15af03f6ce82cdfc5b8ef7",
+    "model.py": "ba97a1ae76b283b2422acf8a9c9396d09d47adb25342ab68f18e8c19dcc160e2",
+    "observation.py": "6ca185df35046d3eba8d8e0ea56fba25b994367c8fcfcdc7c6faa8c3c561f2f5",
+    "ppo.py": "371baf5a64b1acc22c5307d0aa9f297f56af52b293b37cc9d66701b4a3373634",
+    "rewards.py": "6062e5233a5fd8cb3ceb9dbea8f7b81b706255be0eee7f7a712c63d7e93cadbb",
+    "run_experiment.py": "8f26475b3eac80c13614a2eecc3aad41c571feada93c9691a92847ce93fc8a9d",
+    "smoke.py": "83e906aa3b656b3413dc1ebd9c02a65a947139894a1db7f27ec296475d420234",
+    "train.py": "ccbf3eb674970aba5f415f1acaa062b1c3fdf28e4660c47f0e424f17c9b73338",
+    "__init__.py": "f53e3207f6747e1b21784518a91b0c9ba5d24c412443f39517b2cb59e1fa0dd0",
+    "tests/test_core.py": "1612d572630df53febb89b7a16421c3797e1b80fa4246f5d778c4fd39117714c"
+  },
+  "finished_unix": 1791888696.5262454
+}

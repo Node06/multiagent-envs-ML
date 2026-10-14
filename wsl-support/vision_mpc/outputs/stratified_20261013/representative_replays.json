@@ -1,0 +1,22 @@
+[
+  {
+    "case": "hunter_gap_008_012_007",
+    "reason": "caught",
+    "method": "mpc"
+  },
+  {
+    "case": "near_obstacle_goal_000",
+    "reason": "caught",
+    "method": "mpc"
+  },
+  {
+    "case": "ordinary_005",
+    "reason": "paired_improvement",
+    "method": "mpc"
+  },
+  {
+    "case": "ordinary_005",
+    "reason": "paired_baseline",
+    "method": "astar"
+  }
+]

@@ -1,0 +1,33 @@
+import argparse
+import sys
+from pathlib import Path
+import json
+import torch
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+sys.path[:0] = [str(HERE.parent), str(ROOT)]
+from learned_control.runtime import load_controller
+from learned_control.evaluate import episode
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument('--checkpoint', type=Path, default=HERE/'outputs/main_20261014/primary_ppo.pt')
+    p.add_argument('--output', type=Path, default=HERE/'outputs/main_demo')
+    p.add_argument('--hunter', nargs=2, type=float, default=[0., 0.])
+    p.add_argument('--evader', nargs=2, type=float, default=[.7, .7])
+    p.add_argument('--goal', nargs=2, type=float, default=[-.5, -.5])
+    p.add_argument('--show', action='store_true')
+    args = p.parse_args()
+    torch.set_num_threads(1)
+    model, cp = load_controller(args.checkpoint)
+    cfg = json.loads((HERE.parent/'vision_mpc/config.json').read_text())
+    args.output.mkdir(parents=True, exist_ok=True)
+    case = {'id': 'default_demo', 'hunter': args.hunter, 'evader': args.evader, 'goal': args.goal}
+    result = episode(case, 'learned', model, None, cfg, args.output, video=True, show=args.show)
+    (args.output/'result.json').write_text(json.dumps(result, indent=2))
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == '__main__':
+    main()

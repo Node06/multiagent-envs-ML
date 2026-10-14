@@ -1,0 +1,30 @@
+{
+  "learned": {
+    "path": "/mnt/e/Materials/MachineLearning/lab/multiagent-envs-ML/wsl-support/learned_control/outputs/main_20261014/primary_ppo.pt",
+    "stage": "ppo16384",
+    "validation": {
+      "success_rate": 0.75,
+      "outcomes": {
+        "caught": 5,
+        "success": 30,
+        "obstacle_collision": 5
+      },
+      "mean_success_steps": 35.233333333333334,
+      "stage": "ppo16384"
+    }
+  },
+  "imitation": {
+    "path": "/mnt/e/Materials/MachineLearning/lab/multiagent-envs-ML/wsl-support/learned_control/outputs/main_20261014/imitation_best.pt",
+    "stage": "dagger1",
+    "validation": {
+      "success_rate": 0.8,
+      "outcomes": {
+        "caught": 5,
+        "success": 32,
+        "obstacle_collision": 3
+      },
+      "mean_success_steps": 35.375,
+      "stage": "dagger1"
+    }
+  }
+}
