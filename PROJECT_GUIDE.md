@@ -1,18 +1,22 @@
 # Save the Prey：学习模型主方案
 
-当前提交主路线是 **RGB 图像 → 训练 CNN 感知 → 训练 Actor → 二维有界加速度**。控制网络通过 MPC 示范、DAgger 和 PPO 微调训练；MPC 只用于训练标签和对照，主模型运行时不调用 MPC。对外接口 `LearnedController.act(rgb)` 不接受真实状态。
+当前优化主路线是 **RGB 图像 → 已训练 CNN 感知 → 三个训练动力学模型 → MPC → 二维有界加速度**。MPC 的候选轨迹由训练后的模型预测，运行时没有解析动力学兜底。模型学习图像运动，同时保留位置积分等公开运动学结构；不能称为纯神经网络端到端方案。详见 [学习动力学运行指南](wsl-support/learned_mpc/README.md)。
+
+先前 **CNN＋模仿学习/DAgger＋PPO Actor** 保留作对照，入口为 `learned`。它的控制阶段不调用 MPC；新路线入口为 `model-mpc`。两者不要混用结果。
 
 教师原环境 `multiagent/`、参考 `agents/` 与原根目录代码保持基线 ca0f9ab，不修改猎人行为、速度、物理碰撞或终止规则。跨平台完整性检查只标准化 Git 的 CRLF/LF 换行差异。
 
 ## 先读哪些资料
 
 1. [课设要求核验](wsl-support/course_audit/课设要求核验.md)：PPT第5～8页、固定障碍要求、图像输入、机器学习要求和猎人行为。
-2. [当前学习模型说明](wsl-support/learned_control/README.md)：模型训练、验证、PPO选模、独立测试和限制。
+2. [学习动力学运行指南](wsl-support/learned_mpc/README.md)：当前模型、训练数据、独立测试和运行限制；[PPO模型说明](wsl-support/learned_control/README.md) 保留旧路线。
 3. [团队跨平台安装](wsl-support/team-share/团队交接指南.md)：Python3.10、Windows/Conda/WSL依赖。
 
-原根目录 readme.md 保留作为教师材料，其中“或者其他方法”不能替代新 PPT 的明确机器学习要求。原 `vision_ppo/` 是旧的视觉状态纯 PPO 基线；`vision_mpc/` 是规划与示范基线。新的提交模型在 `learned_control/`。
+原根目录 readme.md 保留作为教师材料，其中“或者其他方法”不能替代新 PPT 的明确机器学习要求。`vision_ppo/` 是旧的视觉状态纯 PPO 基线；`vision_mpc/` 是解析规划与示范基线。当前动力学模型在 `learned_mpc/`，先前 Actor 在 `learned_control/`。
 
-已完成 450 场配对独立评估：课程固定障碍主模型 42/60（70%），最佳模仿模型 39/60，旧纯 PPO 13/60，MPC 60/60；随机障碍压力测试主模型 22/30。默认演示场景主模型在第22步被捕获，不能当作成功演示。PPO 相对模仿模型仅多成功3场，单种子实验不能证明算法优越。完整结果、失败分布和定位误差见 `wsl-support/learned_control/outputs/main_20261014/主模型实验报告.md`。
+先前 Actor 的450场配对独立评估：课程固定障碍 42/60（70%），最佳模仿模型39/60，旧纯 PPO 13/60，解析 MPC 60/60；随机障碍压力测试 Actor 22/30。该 Actor 的默认演示第22步被捕获。历史明细见 `wsl-support/learned_control/outputs/main_20261014/主模型实验报告.md`。
+
+新动力学路线已完成524场配对独立评估：课程场景100/100、随机障碍30/30和默认场景1/1；同场景解析 MPC 也是100/100、30/30和1/1，旧 Actor 为69/100、24/30和0/1，未训练动力学＋MPC为97/100、28/30和1/1。新路线没有证明优于解析 MPC；训练动力学相对未训练版本只多成功5场，仍需更多独立实验验证稳定性。完整逐场记录与区间在 `wsl-support/learned_mpc/outputs/main_20261014/test/`。有限场景全成功不能保证任意新场景成功。
 
 ## Windows 与 Linux 共用命令
 
@@ -21,13 +25,16 @@
 ```bash
 python team_run.py check --ppo
 python wsl-support/course_audit/audit.py --verify-only
+python team_run.py model-mpc --show
 python team_run.py learned --show
 python team_run.py mpc --show --video --realtime
 ```
 
-Windows 可从已激活的 Conda 终端运行 `Run_Learned_Windows.cmd`；使用项目 `.venv` 时可直接双击该文件。旧 Run_PPO_Windows.cmd 展示的是旧纯 PPO，保留为基线。
+Windows 新路线入口为 `Run_LearnedDynamics_Windows.cmd`，可从已激活的 Conda 终端运行；项目 `.venv` 存在时也可双击。`Run_Learned_Windows.cmd` 与 `Run_PPO_Windows.cmd` 保留旧模型。训练、评估默认不打开显示窗口；WSL 已验证 EGL 后台渲染，原生 Windows 完整 OpenGL 运行仍需队友实机确认。
 
 ## 继续训练与评估
+
+新路线的采集、训练、验证和测试命令见 [学习动力学运行指南](wsl-support/learned_mpc/README.md)。以下是旧 Actor 路线：
 
 ```bash
 python team_run.py learned-train --seed 2401 --output wsl-support/learned_control/outputs/team2401

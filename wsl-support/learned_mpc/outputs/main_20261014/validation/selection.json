@@ -1,0 +1,5 @@
+{
+  "method": "learned_u0",
+  "uncertainty_scale": 0.0,
+  "criterion": "30 validation episodes only"
+}

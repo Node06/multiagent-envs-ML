@@ -1,0 +1,43 @@
+{
+  "course_fixed_obstacles": {
+    "learned_u0": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "median_decision_ms": 91.39350050000417
+    },
+    "learned_u025": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "median_decision_ms": 91.29781899997624
+    },
+    "learned_u05": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "median_decision_ms": 91.95769275000032
+    }
+  }
+}

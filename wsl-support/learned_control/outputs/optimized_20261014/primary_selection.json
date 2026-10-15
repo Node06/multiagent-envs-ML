@@ -1,0 +1,9 @@
+{
+  "criterion": "validation only across PPO stages/seeds; no test feedback",
+  "seed": 2411,
+  "best": 0.875,
+  "best_ppo": 0.875,
+  "samples": 13706,
+  "ppo_steps": 8192,
+  "stage": "ppo4096"
+}

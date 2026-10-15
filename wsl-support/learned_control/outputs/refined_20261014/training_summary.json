@@ -1,0 +1,12 @@
+{
+  "seed": 3411,
+  "samples": 15866,
+  "extra_expert_outcomes": {
+    "success": 80
+  },
+  "ppo_steps": 8192,
+  "validation_best": 0.7375,
+  "ppo_best": 0.7375,
+  "seconds": 1038.8943397620005,
+  "original_integrity": "passed"
+}

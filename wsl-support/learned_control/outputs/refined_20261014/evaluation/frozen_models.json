@@ -1,0 +1,67 @@
+{
+  "previous_main": {
+    "path": "wsl-support/learned_control/outputs/main_20261014/primary_ppo.pt",
+    "sha256": "237eee384539796025b539419ade47c637e73a22cc2f4e9a17bbfec254089e47",
+    "stage": "ppo16384",
+    "validation": {
+      "success_rate": 0.75,
+      "outcomes": {
+        "caught": 5,
+        "success": 30,
+        "obstacle_collision": 5
+      },
+      "mean_success_steps": 35.233333333333334,
+      "stage": "ppo16384"
+    },
+    "seed": 1401
+  },
+  "optimized_v2": {
+    "path": "wsl-support/learned_control/outputs/optimized_20261014/primary_ppo.pt",
+    "sha256": "9194a8249e6556f19f304f7fad148663ccb915647ac21930a721a1ccc279590a",
+    "stage": "ppo4096",
+    "validation": {
+      "success_rate": 0.875,
+      "outcomes": {
+        "obstacle_collision": 5,
+        "success": 35
+      },
+      "mean_success_steps": 31.142857142857142,
+      "stage": "ppo4096"
+    },
+    "seed": 2411
+  },
+  "refined_main": {
+    "path": "wsl-support/learned_control/outputs/refined_20261014/primary_ppo.pt",
+    "sha256": "b67608bb106051f89f333eb4f45c963c8d1afbdf500bbee1ea98b59b0438f567",
+    "stage": "ppo4096",
+    "validation": {
+      "success_rate": 0.7375,
+      "outcomes": {
+        "success": 59,
+        "obstacle_collision": 19,
+        "caught": 2
+      },
+      "mean_success_steps": 35.11864406779661,
+      "stage": "ppo4096"
+    },
+    "seed": 3411
+  },
+  "refined_imitation": {
+    "path": "wsl-support/learned_control/outputs/refined_20261014/imitation_best.pt",
+    "sha256": "7e3be8ed9026043f0dcb7001784919ea0046cc0c8ef7116ccdd58c9a7cddbc45",
+    "stage": "initial",
+    "validation": {
+      "success_rate": 0.725,
+      "outcomes": {
+        "success": 58,
+        "obstacle_collision": 20,
+        "caught": 2
+      },
+      "mean_success_steps": 34.56896551724138,
+      "stage": "initial"
+    },
+    "seed": 3411
+  },
+  "selected_candidate": "refined_main",
+  "selection_criterion": "same 80-case validation only; compare refinement to its frozen source before test"
+}

@@ -1,0 +1,11 @@
+{
+  "episodes": 180,
+  "body_transitions": 12623,
+  "splits": {
+    "test": 2006,
+    "validation": 2144,
+    "train": 8473
+  },
+  "labels": "next position minus current position from RGB /dt; queued actions only",
+  "original_integrity": "passed"
+}

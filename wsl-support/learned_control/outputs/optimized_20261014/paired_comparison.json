@@ -1,0 +1,57 @@
+{
+  "fresh_course_holdout": {
+    "repaired_cases": [
+      "s2026101428_026",
+      "s2026101428_052",
+      "s2026101428_059",
+      "s2026101428_068",
+      "s2026101428_078",
+      "s2026101428_092",
+      "s2026101428_099"
+    ],
+    "regressed_cases": [
+      "s2026101428_028",
+      "s2026101428_047",
+      "s2026101428_053",
+      "s2026101428_075",
+      "s2026101428_095"
+    ],
+    "paired_mcnemar_exact_p": 0.7744140625,
+    "seed_success_mean": 0.8166666666666668,
+    "seed_success_sample_std": 0.011547005383792462
+  },
+  "random_obstacles_stress": {
+    "repaired_cases": [
+      "random_obstacles_2026101429_008",
+      "random_obstacles_2026101429_023",
+      "random_obstacles_2026101429_026"
+    ],
+    "regressed_cases": [
+      "random_obstacles_2026101429_007",
+      "random_obstacles_2026101429_009",
+      "random_obstacles_2026101429_016",
+      "random_obstacles_2026101429_018",
+      "random_obstacles_2026101429_022"
+    ],
+    "paired_mcnemar_exact_p": 0.7265625,
+    "seed_success_mean": 0.6111111111111112,
+    "seed_success_sample_std": 0.01924500897298752
+  },
+  "published_course_regression": {
+    "repaired_cases": [
+      "s2026101404_026",
+      "s2026101404_033",
+      "s2026101404_038",
+      "s2026101404_039",
+      "s2026101404_057",
+      "s2026101404_059"
+    ],
+    "regressed_cases": [
+      "s2026101404_008",
+      "s2026101404_028"
+    ],
+    "paired_mcnemar_exact_p": 0.2890625,
+    "seed_success_mean": 0.7055555555555556,
+    "seed_success_sample_std": 0.06735753140545638
+  }
+}

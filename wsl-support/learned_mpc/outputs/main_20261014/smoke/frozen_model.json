@@ -1,0 +1,10 @@
+{
+  "checkpoint": "world_empirical.pt",
+  "sha256": "23564146223c3fa510dea28e871551f71ce5ebd9eb6c75fee6dea3a1e7f4baac",
+  "methods": {
+    "learned": 0.25,
+    "mpc": null
+  },
+  "model_selection": "validation only; no test feedback",
+  "rendering": "Linux EGL offscreen; same renderer for every method"
+}

@@ -1,0 +1,196 @@
+{
+  "route": "trained RGB perception + structured neural dynamics ensemble + MPC",
+  "tests": "37 passed under WSL2 Ubuntu22.04 CPU with EGL offscreen rendering",
+  "additional_checks": [
+    "moved checkpoint loading",
+    "90-row evaluation resume",
+    "frozen-output protection",
+    "changed-seed rejection",
+    "default demo 77-step success"
+  ],
+  "teacher_source_baseline": "ca0f9ab",
+  "teacher_source_diff": "empty",
+  "selection": {
+    "method": "learned_u0",
+    "uncertainty_scale": 0.0,
+    "criterion": "30 validation episodes only"
+  },
+  "frozen_world_sha256": "23564146223c3fa510dea28e871551f71ce5ebd9eb6c75fee6dea3a1e7f4baac",
+  "closed_loop_summary": {
+    "default_demo": {
+      "learned": {
+        "episodes": 1,
+        "successes": 1,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.20654329147389294,
+          1.0
+        ],
+        "outcomes": {
+          "success": 1
+        },
+        "median_decision_ms": 91.66282199998932
+      },
+      "mpc": {
+        "episodes": 1,
+        "successes": 1,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.20654329147389294,
+          1.0
+        ],
+        "outcomes": {
+          "success": 1
+        },
+        "median_decision_ms": 70.63472699996964
+      },
+      "previous_ppo": {
+        "episodes": 1,
+        "successes": 0,
+        "success_rate": 0.0,
+        "success_rate_95ci": [
+          0.0,
+          0.7934567085261071
+        ],
+        "outcomes": {
+          "caught": 1
+        },
+        "median_decision_ms": 23.158852500046123
+      },
+      "untrained_world": {
+        "episodes": 1,
+        "successes": 1,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.20654329147389294,
+          1.0
+        ],
+        "outcomes": {
+          "success": 1
+        },
+        "median_decision_ms": 93.23662600013449
+      }
+    },
+    "fresh_course_holdout": {
+      "learned": {
+        "episodes": 100,
+        "successes": 100,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.9630051925239981,
+          0.9999999999999999
+        ],
+        "outcomes": {
+          "success": 100
+        },
+        "median_decision_ms": 90.90478899997834
+      },
+      "mpc": {
+        "episodes": 100,
+        "successes": 100,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.9630051925239981,
+          0.9999999999999999
+        ],
+        "outcomes": {
+          "success": 100
+        },
+        "median_decision_ms": 70.33870250000973
+      },
+      "previous_ppo": {
+        "episodes": 100,
+        "successes": 69,
+        "success_rate": 0.69,
+        "success_rate_95ci": [
+          0.5937376052204429,
+          0.7722043679386762
+        ],
+        "outcomes": {
+          "caught": 7,
+          "obstacle_collision": 24,
+          "success": 69
+        },
+        "median_decision_ms": 20.712953999918682
+      },
+      "untrained_world": {
+        "episodes": 100,
+        "successes": 97,
+        "success_rate": 0.97,
+        "success_rate_95ci": [
+          0.915479219195973,
+          0.9897456617765851
+        ],
+        "outcomes": {
+          "caught": 3,
+          "success": 97
+        },
+        "median_decision_ms": 91.97314724997341
+      }
+    },
+    "random_obstacles_stress": {
+      "learned": {
+        "episodes": 30,
+        "successes": 30,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.8864829086095221,
+          1.0
+        ],
+        "outcomes": {
+          "success": 30
+        },
+        "median_decision_ms": 93.67830224994123
+      },
+      "mpc": {
+        "episodes": 30,
+        "successes": 30,
+        "success_rate": 1.0,
+        "success_rate_95ci": [
+          0.8864829086095221,
+          1.0
+        ],
+        "outcomes": {
+          "success": 30
+        },
+        "median_decision_ms": 69.32196350010145
+      },
+      "previous_ppo": {
+        "episodes": 30,
+        "successes": 24,
+        "success_rate": 0.8,
+        "success_rate_95ci": [
+          0.6269395261897256,
+          0.9049502189759876
+        ],
+        "outcomes": {
+          "caught": 3,
+          "obstacle_collision": 3,
+          "success": 24
+        },
+        "median_decision_ms": 20.4731175000461
+      },
+      "untrained_world": {
+        "episodes": 30,
+        "successes": 28,
+        "success_rate": 0.9333333333333333,
+        "success_rate_95ci": [
+          0.7867618227892791,
+          0.9815233646723066
+        ],
+        "outcomes": {
+          "caught": 1,
+          "obstacle_collision": 1,
+          "success": 28
+        },
+        "median_decision_ms": 91.59316649999028
+      }
+    }
+  },
+  "limits": [
+    "finite held-out scenarios; no universal success guarantee",
+    "structured kinematic prior retained",
+    "selected uncertainty expansion is zero",
+    "native Windows OpenGL not fully validated"
+  ]
+}

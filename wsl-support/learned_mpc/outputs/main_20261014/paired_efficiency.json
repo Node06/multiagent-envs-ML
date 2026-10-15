@@ -1,0 +1,17 @@
+{
+  "mpc": {
+    "common_successful_cases": 131,
+    "learned_mean_steps": 33.47328244274809,
+    "comparison_mean_steps": 33.42748091603053
+  },
+  "previous_ppo": {
+    "common_successful_cases": 93,
+    "learned_mean_steps": 30.677419354838708,
+    "comparison_mean_steps": 32.01075268817204
+  },
+  "untrained_world": {
+    "common_successful_cases": 126,
+    "learned_mean_steps": 32.801587301587304,
+    "comparison_mean_steps": 32.682539682539684
+  }
+}

@@ -1,0 +1,7 @@
+{"bc_epoch": 1, "loss": 0.11668197810649872, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.07355014234781265, "samples": 10833}
+Dropped Escape call with ulEscapeCode : 0x03007703
+VALIDATION {"seed": 2411, "success_rate": 0.85, "outcomes": {"obstacle_collision": 3, "success": 17}, "mean_success_steps": 32.470588235294116, "stage": "bc40"}
+PPO {"seed": 2411, "steps": 1024, "policy_loss": -0.005178911960683763, "value_loss": 62.37180137634277, "bc_loss": 0.07057989970780909, "kl": 0.0015632603171980008}
+VALIDATION {"seed": 2411, "success_rate": 0.85, "outcomes": {"caught": 1, "success": 17, "obstacle_collision": 2}, "mean_success_steps": 32.470588235294116, "stage": "ppo1024"}
+OPTIMIZATION TRAINING COMPLETE

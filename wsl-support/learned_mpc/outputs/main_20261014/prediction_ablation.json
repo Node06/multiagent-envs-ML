@@ -1,0 +1,16 @@
+{
+  "coordinate_scale": "400 pixels per world unit; 800x800 RGB image spans two world units",
+  "data": "episode-disjoint held-out image transitions; no fitting or selection in this check",
+  "results": {
+    "trained": {
+      "transitions": 2006,
+      "mean_next_position_error_pixels": 0.38874202966690063,
+      "p95_next_position_error_pixels": 0.8456477224826813
+    },
+    "untrained": {
+      "transitions": 2006,
+      "mean_next_position_error_pixels": 1.068927526473999,
+      "p95_next_position_error_pixels": 2.79498553276062
+    }
+  }
+}

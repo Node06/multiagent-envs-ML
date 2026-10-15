@@ -1,0 +1,62 @@
+[
+  {
+    "success_rate": 0.725,
+    "outcomes": {
+      "success": 58,
+      "obstacle_collision": 20,
+      "caught": 2
+    },
+    "mean_success_steps": 34.56896551724138,
+    "stage": "initial"
+  },
+  {
+    "success_rate": 0.7125,
+    "outcomes": {
+      "success": 57,
+      "obstacle_collision": 21,
+      "caught": 2
+    },
+    "mean_success_steps": 33.26315789473684,
+    "stage": "safety_0_025"
+  },
+  {
+    "success_rate": 0.7125,
+    "outcomes": {
+      "success": 57,
+      "obstacle_collision": 21,
+      "caught": 2
+    },
+    "mean_success_steps": 33.31578947368421,
+    "stage": "safety_0_1"
+  },
+  {
+    "success_rate": 0.7125,
+    "outcomes": {
+      "success": 57,
+      "obstacle_collision": 20,
+      "caught": 3
+    },
+    "mean_success_steps": 33.12280701754386,
+    "stage": "safety_0_4"
+  },
+  {
+    "success_rate": 0.7375,
+    "outcomes": {
+      "success": 59,
+      "obstacle_collision": 19,
+      "caught": 2
+    },
+    "mean_success_steps": 35.11864406779661,
+    "stage": "ppo4096"
+  },
+  {
+    "success_rate": 0.725,
+    "outcomes": {
+      "success": 58,
+      "obstacle_collision": 20,
+      "caught": 2
+    },
+    "mean_success_steps": 34.51724137931034,
+    "stage": "ppo8192"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "course_fixed_obstacles": {
+    "learned": {
+      "episodes": 3,
+      "successes": 3,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.43849391955098227,
+        1.0
+      ],
+      "outcomes": {
+        "success": 3
+      },
+      "median_decision_ms": 238.29351499999873
+    },
+    "mpc": {
+      "episodes": 3,
+      "successes": 3,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.43849391955098227,
+        1.0
+      ],
+      "outcomes": {
+        "success": 3
+      },
+      "median_decision_ms": 92.1123460000004
+    }
+  }
+}

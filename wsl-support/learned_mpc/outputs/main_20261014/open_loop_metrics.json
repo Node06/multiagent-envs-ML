@@ -1,0 +1,21 @@
+{
+  "protocol": "held-out episodes; recorded future actions supplied; initial four visual neighbors fixed; no future positions fed to the model",
+  "pixels_reference": "400x400 visual coordinates",
+  "horizons": {
+    "1": {
+      "windows": 2006,
+      "mean_position_error_pixels": 0.3887420316342764,
+      "p95_position_error_pixels": 0.8456477662024627
+    },
+    "5": {
+      "windows": 378,
+      "mean_position_error_pixels": 0.9298857653226591,
+      "p95_position_error_pixels": 2.8029713865657544
+    },
+    "10": {
+      "windows": 174,
+      "mean_position_error_pixels": 1.6325993060338504,
+      "p95_position_error_pixels": 6.898264626647584
+    }
+  }
+}

@@ -1,0 +1,108 @@
+Dropped Escape call with ulEscapeCode : 0x03007703
+DAGGER {"case": "hard_3421_000", "reason": "success", "samples": 21}
+DAGGER {"case": "hard_3421_001", "reason": "success", "samples": 63}
+DAGGER {"case": "hard_3421_002", "reason": "success", "samples": 86}
+DAGGER {"case": "hard_3421_003", "reason": "success", "samples": 129}
+DAGGER {"case": "hard_3421_004", "reason": "success", "samples": 153}
+DAGGER {"case": "hard_3421_005", "reason": "success", "samples": 195}
+DAGGER {"case": "hard_3421_006", "reason": "success", "samples": 217}
+DAGGER {"case": "hard_3421_007", "reason": "success", "samples": 245}
+DAGGER {"case": "hard_3421_008", "reason": "success", "samples": 266}
+DAGGER {"case": "hard_3421_009", "reason": "success", "samples": 279}
+DAGGER {"case": "hard_3421_010", "reason": "success", "samples": 304}
+DAGGER {"case": "hard_3421_011", "reason": "success", "samples": 324}
+DAGGER {"case": "hard_3421_012", "reason": "success", "samples": 350}
+DAGGER {"case": "hard_3421_013", "reason": "success", "samples": 380}
+DAGGER {"case": "hard_3421_014", "reason": "success", "samples": 404}
+DAGGER {"case": "hard_3421_015", "reason": "success", "samples": 427}
+DAGGER {"case": "hard_3421_016", "reason": "success", "samples": 456}
+DAGGER {"case": "hard_3421_017", "reason": "success", "samples": 485}
+DAGGER {"case": "hard_3421_018", "reason": "success", "samples": 517}
+DAGGER {"case": "hard_3421_019", "reason": "success", "samples": 545}
+DAGGER {"case": "hard_3421_020", "reason": "success", "samples": 560}
+DAGGER {"case": "hard_3421_021", "reason": "success", "samples": 583}
+DAGGER {"case": "hard_3421_022", "reason": "success", "samples": 605}
+DAGGER {"case": "hard_3421_023", "reason": "success", "samples": 633}
+DAGGER {"case": "hard_3421_024", "reason": "success", "samples": 660}
+DAGGER {"case": "hard_3421_025", "reason": "success", "samples": 682}
+DAGGER {"case": "hard_3421_026", "reason": "success", "samples": 705}
+DAGGER {"case": "hard_3421_027", "reason": "success", "samples": 738}
+DAGGER {"case": "hard_3421_028", "reason": "success", "samples": 756}
+DAGGER {"case": "hard_3421_029", "reason": "success", "samples": 773}
+DAGGER {"case": "hard_3421_030", "reason": "success", "samples": 791}
+DAGGER {"case": "hard_3421_031", "reason": "success", "samples": 837}
+DAGGER {"case": "hard_3421_032", "reason": "success", "samples": 861}
+DAGGER {"case": "hard_3421_033", "reason": "success", "samples": 885}
+DAGGER {"case": "hard_3421_034", "reason": "success", "samples": 904}
+DAGGER {"case": "hard_3421_035", "reason": "success", "samples": 934}
+DAGGER {"case": "hard_3421_036", "reason": "success", "samples": 950}
+DAGGER {"case": "hard_3421_037", "reason": "success", "samples": 973}
+DAGGER {"case": "hard_3421_038", "reason": "success", "samples": 1003}
+DAGGER {"case": "hard_3421_039", "reason": "success", "samples": 1049}
+DAGGER {"case": "hard_3421_040", "reason": "success", "samples": 1068}
+DAGGER {"case": "hard_3421_041", "reason": "success", "samples": 1118}
+DAGGER {"case": "hard_3421_042", "reason": "success", "samples": 1138}
+DAGGER {"case": "hard_3421_043", "reason": "success", "samples": 1150}
+DAGGER {"case": "hard_3421_044", "reason": "success", "samples": 1170}
+DAGGER {"case": "hard_3421_045", "reason": "success", "samples": 1191}
+DAGGER {"case": "hard_3421_046", "reason": "success", "samples": 1214}
+DAGGER {"case": "hard_3421_047", "reason": "success", "samples": 1228}
+DAGGER {"case": "hard_3421_048", "reason": "success", "samples": 1251}
+DAGGER {"case": "hard_3421_049", "reason": "success", "samples": 1269}
+DAGGER {"case": "hard_3421_050", "reason": "success", "samples": 1293}
+DAGGER {"case": "hard_3421_051", "reason": "success", "samples": 1307}
+DAGGER {"case": "hard_3421_052", "reason": "success", "samples": 1323}
+DAGGER {"case": "hard_3421_053", "reason": "success", "samples": 1369}
+DAGGER {"case": "hard_3421_054", "reason": "success", "samples": 1387}
+DAGGER {"case": "hard_3421_055", "reason": "success", "samples": 1406}
+DAGGER {"case": "hard_3421_056", "reason": "success", "samples": 1439}
+DAGGER {"case": "hard_3421_057", "reason": "success", "samples": 1478}
+DAGGER {"case": "hard_3421_058", "reason": "success", "samples": 1498}
+DAGGER {"case": "hard_3421_059", "reason": "success", "samples": 1519}
+DAGGER {"case": "random_obstacles_3422_000", "reason": "success", "samples": 1535}
+DAGGER {"case": "random_obstacles_3422_001", "reason": "success", "samples": 1576}
+DAGGER {"case": "random_obstacles_3422_002", "reason": "success", "samples": 1598}
+DAGGER {"case": "random_obstacles_3422_003", "reason": "success", "samples": 1613}
+DAGGER {"case": "random_obstacles_3422_004", "reason": "success", "samples": 1636}
+DAGGER {"case": "random_obstacles_3422_005", "reason": "success", "samples": 1683}
+DAGGER {"case": "random_obstacles_3422_006", "reason": "success", "samples": 1714}
+DAGGER {"case": "random_obstacles_3422_007", "reason": "success", "samples": 1752}
+DAGGER {"case": "random_obstacles_3422_008", "reason": "success", "samples": 1772}
+DAGGER {"case": "random_obstacles_3422_009", "reason": "success", "samples": 1805}
+DAGGER {"case": "random_obstacles_3422_010", "reason": "success", "samples": 1835}
+DAGGER {"case": "random_obstacles_3422_011", "reason": "success", "samples": 1877}
+DAGGER {"case": "random_obstacles_3422_012", "reason": "success", "samples": 1935}
+DAGGER {"case": "random_obstacles_3422_013", "reason": "success", "samples": 1983}
+DAGGER {"case": "random_obstacles_3422_014", "reason": "success", "samples": 2020}
+DAGGER {"case": "random_obstacles_3422_015", "reason": "success", "samples": 2070}
+DAGGER {"case": "random_obstacles_3422_016", "reason": "success", "samples": 2100}
+DAGGER {"case": "random_obstacles_3422_017", "reason": "success", "samples": 2116}
+DAGGER {"case": "random_obstacles_3422_018", "reason": "success", "samples": 2140}
+DAGGER {"case": "random_obstacles_3422_019", "reason": "success", "samples": 2160}
+VALIDATION {"success_rate": 0.725, "outcomes": {"success": 58, "obstacle_collision": 20, "caught": 2}, "mean_success_steps": 34.56896551724138, "stage": "initial"}
+RISK FIT {"coefficient": 0.025, "epoch": 1, "imitation": 0.07617025822401047, "risk": 0.02601977251470089}
+RISK FIT {"coefficient": 0.025, "epoch": 11, "imitation": 0.07961873710155487, "risk": 0.02130080573260784}
+RISK FIT {"coefficient": 0.025, "epoch": 21, "imitation": 0.05666559189558029, "risk": 0.008245122618973255}
+RISK FIT {"coefficient": 0.025, "epoch": 31, "imitation": 0.07915299385786057, "risk": 0.017644444480538368}
+VALIDATION {"success_rate": 0.7125, "outcomes": {"success": 57, "obstacle_collision": 21, "caught": 2}, "mean_success_steps": 33.26315789473684, "stage": "safety_0_025"}
+RISK FIT {"coefficient": 0.1, "epoch": 1, "imitation": 0.07619009912014008, "risk": 0.026002952829003334}
+RISK FIT {"coefficient": 0.1, "epoch": 11, "imitation": 0.07960595190525055, "risk": 0.021233199164271355}
+RISK FIT {"coefficient": 0.1, "epoch": 21, "imitation": 0.056677814573049545, "risk": 0.008211459033191204}
+RISK FIT {"coefficient": 0.1, "epoch": 31, "imitation": 0.07912672311067581, "risk": 0.01755380630493164}
+VALIDATION {"success_rate": 0.7125, "outcomes": {"success": 57, "obstacle_collision": 21, "caught": 2}, "mean_success_steps": 33.31578947368421, "stage": "safety_0_1"}
+RISK FIT {"coefficient": 0.4, "epoch": 1, "imitation": 0.07626544684171677, "risk": 0.025936629623174667}
+RISK FIT {"coefficient": 0.4, "epoch": 11, "imitation": 0.07957591861486435, "risk": 0.020970618352293968}
+RISK FIT {"coefficient": 0.4, "epoch": 21, "imitation": 0.05676574259996414, "risk": 0.008080292493104935}
+RISK FIT {"coefficient": 0.4, "epoch": 31, "imitation": 0.07912392169237137, "risk": 0.01721333898603916}
+VALIDATION {"success_rate": 0.7125, "outcomes": {"success": 57, "obstacle_collision": 20, "caught": 3}, "mean_success_steps": 33.12280701754386, "stage": "safety_0_4"}
+PPO {"steps": 1024, "policy_loss": -0.007883171405410394, "value_loss": 40.99761700630188, "bc_loss": 0.08064991561695933, "kl": 0.0018596766312839463}
+PPO {"steps": 2048, "policy_loss": -0.006231042731087655, "value_loss": 39.02631711959839, "bc_loss": 0.08179185353219509, "kl": 0.0017556119273649529}
+PPO {"steps": 3072, "policy_loss": -0.005280906741973013, "value_loss": 37.735376715660095, "bc_loss": 0.08182131126523018, "kl": 0.0015505382179981098}
+PPO {"steps": 4096, "policy_loss": -0.003684959694510326, "value_loss": 33.15825355052948, "bc_loss": 0.0802415288053453, "kl": 0.0011308009561616927}
+VALIDATION {"success_rate": 0.7375, "outcomes": {"success": 59, "obstacle_collision": 19, "caught": 2}, "mean_success_steps": 35.11864406779661, "stage": "ppo4096"}
+PPO {"steps": 5120, "policy_loss": -0.004617783473804593, "value_loss": 45.18255400657654, "bc_loss": 0.07871229923330247, "kl": 0.0012449882051441818}
+PPO {"steps": 6144, "policy_loss": -0.0038414255250245333, "value_loss": 32.70099675655365, "bc_loss": 0.07991222105920315, "kl": 0.0008674530108692124}
+PPO {"steps": 7168, "policy_loss": -0.004321094078477472, "value_loss": 42.873425006866455, "bc_loss": 0.08201719867065549, "kl": 0.0010559161455603316}
+PPO {"steps": 8192, "policy_loss": -0.005049526982475072, "value_loss": 32.557788014411926, "bc_loss": 0.08104987279511988, "kl": 0.0020597986149368808}
+VALIDATION {"success_rate": 0.725, "outcomes": {"success": 58, "obstacle_collision": 20, "caught": 2}, "mean_success_steps": 34.51724137931034, "stage": "ppo8192"}
+REFINEMENT TRAINING COMPLETE

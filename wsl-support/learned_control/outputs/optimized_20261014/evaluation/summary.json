@@ -1,0 +1,356 @@
+{
+  "default_demo": {
+    "previous_main": {
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_95ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "outcomes": {
+        "caught": 1
+      },
+      "mean_success_steps": null
+    },
+    "seed2411": {
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_95ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "outcomes": {
+        "obstacle_collision": 1
+      },
+      "mean_success_steps": null
+    },
+    "seed2423": {
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_95ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "outcomes": {
+        "obstacle_collision": 1
+      },
+      "mean_success_steps": null
+    },
+    "seed2437": {
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_95ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "outcomes": {
+        "caught": 1
+      },
+      "mean_success_steps": null
+    },
+    "optimized_imitation": {
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_rate_95ci": [
+        0.0,
+        0.7934567085261071
+      ],
+      "outcomes": {
+        "obstacle_collision": 1
+      },
+      "mean_success_steps": null
+    },
+    "mpc": {
+      "episodes": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.20654329147389294,
+        1.0
+      ],
+      "outcomes": {
+        "success": 1
+      },
+      "mean_success_steps": 74.0
+    }
+  },
+  "fresh_course_holdout": {
+    "previous_main": {
+      "episodes": 100,
+      "successes": 81,
+      "success_rate": 0.81,
+      "success_rate_95ci": [
+        0.7222097592919214,
+        0.8748534600729574
+      ],
+      "outcomes": {
+        "caught": 6,
+        "obstacle_collision": 13,
+        "success": 81
+      },
+      "mean_success_steps": 31.950617283950617
+    },
+    "seed2411": {
+      "episodes": 100,
+      "successes": 83,
+      "success_rate": 0.83,
+      "success_rate_95ci": [
+        0.7445181876635703,
+        0.8910652394022684
+      ],
+      "outcomes": {
+        "caught": 4,
+        "obstacle_collision": 13,
+        "success": 83
+      },
+      "mean_success_steps": 31.698795180722893
+    },
+    "seed2423": {
+      "episodes": 100,
+      "successes": 81,
+      "success_rate": 0.81,
+      "success_rate_95ci": [
+        0.7222097592919214,
+        0.8748534600729574
+      ],
+      "outcomes": {
+        "caught": 6,
+        "obstacle_collision": 13,
+        "success": 81
+      },
+      "mean_success_steps": 31.098765432098766
+    },
+    "seed2437": {
+      "episodes": 100,
+      "successes": 81,
+      "success_rate": 0.81,
+      "success_rate_95ci": [
+        0.7222097592919214,
+        0.8748534600729574
+      ],
+      "outcomes": {
+        "caught": 3,
+        "obstacle_collision": 16,
+        "success": 81
+      },
+      "mean_success_steps": 30.333333333333332
+    },
+    "optimized_imitation": {
+      "episodes": 100,
+      "successes": 83,
+      "success_rate": 0.83,
+      "success_rate_95ci": [
+        0.7445181876635703,
+        0.8910652394022684
+      ],
+      "outcomes": {
+        "caught": 4,
+        "obstacle_collision": 13,
+        "success": 83
+      },
+      "mean_success_steps": 31.80722891566265
+    },
+    "mpc": {
+      "episodes": 100,
+      "successes": 100,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.9630051925239981,
+        0.9999999999999999
+      ],
+      "outcomes": {
+        "success": 100
+      },
+      "mean_success_steps": 33.2
+    }
+  },
+  "published_course_regression": {
+    "previous_main": {
+      "episodes": 60,
+      "successes": 42,
+      "success_rate": 0.7,
+      "success_rate_95ci": [
+        0.5749105303360957,
+        0.801019897472731
+      ],
+      "outcomes": {
+        "caught": 5,
+        "obstacle_collision": 13,
+        "success": 42
+      },
+      "mean_success_steps": 34.11904761904762
+    },
+    "seed2411": {
+      "episodes": 60,
+      "successes": 46,
+      "success_rate": 0.7666666666666667,
+      "success_rate_95ci": [
+        0.6456348865960799,
+        0.8556056838156894
+      ],
+      "outcomes": {
+        "caught": 3,
+        "obstacle_collision": 11,
+        "success": 46
+      },
+      "mean_success_steps": 32.869565217391305
+    },
+    "seed2423": {
+      "episodes": 60,
+      "successes": 43,
+      "success_rate": 0.7166666666666667,
+      "success_rate_95ci": [
+        0.5923247495026482,
+        0.8149332139569141
+      ],
+      "outcomes": {
+        "caught": 2,
+        "obstacle_collision": 15,
+        "success": 43
+      },
+      "mean_success_steps": 33.116279069767444
+    },
+    "seed2437": {
+      "episodes": 60,
+      "successes": 38,
+      "success_rate": 0.6333333333333333,
+      "success_rate_95ci": [
+        0.5068276736679673,
+        0.7437926115379172
+      ],
+      "outcomes": {
+        "caught": 3,
+        "obstacle_collision": 19,
+        "success": 38
+      },
+      "mean_success_steps": 31.842105263157894
+    },
+    "optimized_imitation": {
+      "episodes": 60,
+      "successes": 46,
+      "success_rate": 0.7666666666666667,
+      "success_rate_95ci": [
+        0.6456348865960799,
+        0.8556056838156894
+      ],
+      "outcomes": {
+        "caught": 3,
+        "obstacle_collision": 11,
+        "success": 46
+      },
+      "mean_success_steps": 33.21739130434783
+    },
+    "mpc": {
+      "episodes": 60,
+      "successes": 60,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.9398260695220669,
+        0.9999999999999999
+      ],
+      "outcomes": {
+        "success": 60
+      },
+      "mean_success_steps": 34.45
+    }
+  },
+  "random_obstacles_stress": {
+    "previous_main": {
+      "episodes": 30,
+      "successes": 20,
+      "success_rate": 0.6666666666666666,
+      "success_rate_95ci": [
+        0.48779725813830266,
+        0.807697044731538
+      ],
+      "outcomes": {
+        "caught": 2,
+        "obstacle_collision": 8,
+        "success": 20
+      },
+      "mean_success_steps": 34.5
+    },
+    "seed2411": {
+      "episodes": 30,
+      "successes": 18,
+      "success_rate": 0.6,
+      "success_rate_95ci": [
+        0.42320052498273836,
+        0.7540960567391659
+      ],
+      "outcomes": {
+        "caught": 7,
+        "obstacle_collision": 4,
+        "perception_failure": 1,
+        "success": 18
+      },
+      "mean_success_steps": 35.5
+    },
+    "seed2423": {
+      "episodes": 30,
+      "successes": 19,
+      "success_rate": 0.6333333333333333,
+      "success_rate_95ci": [
+        0.45513246433604937,
+        0.7812629779598231
+      ],
+      "outcomes": {
+        "caught": 8,
+        "obstacle_collision": 2,
+        "success": 19,
+        "timeout": 1
+      },
+      "mean_success_steps": 39.10526315789474
+    },
+    "seed2437": {
+      "episodes": 30,
+      "successes": 18,
+      "success_rate": 0.6,
+      "success_rate_95ci": [
+        0.42320052498273836,
+        0.7540960567391659
+      ],
+      "outcomes": {
+        "caught": 7,
+        "obstacle_collision": 5,
+        "success": 18
+      },
+      "mean_success_steps": 37.22222222222222
+    },
+    "optimized_imitation": {
+      "episodes": 30,
+      "successes": 18,
+      "success_rate": 0.6,
+      "success_rate_95ci": [
+        0.42320052498273836,
+        0.7540960567391659
+      ],
+      "outcomes": {
+        "caught": 7,
+        "obstacle_collision": 4,
+        "perception_failure": 1,
+        "success": 18
+      },
+      "mean_success_steps": 35.72222222222222
+    },
+    "mpc": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "success_rate_95ci": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "mean_success_steps": 36.46666666666667
+    }
+  },
+  "selected_main": "seed2411"
+}

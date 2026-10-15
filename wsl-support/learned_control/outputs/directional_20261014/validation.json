@@ -1,0 +1,72 @@
+[
+  {
+    "success_rate": 0.5625,
+    "outcomes": {
+      "caught": 17,
+      "success": 45,
+      "obstacle_collision": 18
+    },
+    "mean_success_steps": 47.86666666666667,
+    "stage": "classifier20"
+  },
+  {
+    "success_rate": 0.6125,
+    "outcomes": {
+      "success": 49,
+      "caught": 11,
+      "obstacle_collision": 20
+    },
+    "mean_success_steps": 38.46938775510204,
+    "stage": "classifier40"
+  },
+  {
+    "success_rate": 0.6375,
+    "outcomes": {
+      "success": 51,
+      "obstacle_collision": 22,
+      "caught": 7
+    },
+    "mean_success_steps": 38.333333333333336,
+    "stage": "classifier60"
+  },
+  {
+    "success_rate": 0.6125,
+    "outcomes": {
+      "success": 49,
+      "caught": 12,
+      "obstacle_collision": 19
+    },
+    "mean_success_steps": 35.95918367346939,
+    "stage": "classifier80"
+  },
+  {
+    "success_rate": 0.6875,
+    "outcomes": {
+      "success": 55,
+      "caught": 9,
+      "obstacle_collision": 16
+    },
+    "mean_success_steps": 41.49090909090909,
+    "stage": "dagger"
+  },
+  {
+    "success_rate": 0.7125,
+    "outcomes": {
+      "success": 57,
+      "caught": 9,
+      "obstacle_collision": 14
+    },
+    "mean_success_steps": 35.31578947368421,
+    "stage": "ppo4096"
+  },
+  {
+    "success_rate": 0.7,
+    "outcomes": {
+      "success": 56,
+      "caught": 9,
+      "obstacle_collision": 15
+    },
+    "mean_success_steps": 39.94642857142857,
+    "stage": "ppo8192"
+  }
+]

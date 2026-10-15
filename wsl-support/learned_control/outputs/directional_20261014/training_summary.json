@@ -1,0 +1,14 @@
+{
+  "seed": 4411,
+  "samples": 17712,
+  "ppo_steps": 8192,
+  "dagger_outcomes": {
+    "obstacle_collision": 18,
+    "success": 61,
+    "caught": 1
+  },
+  "best_validation": 0.7125,
+  "ppo_validation": 0.7125,
+  "seconds": 1754.392305683,
+  "original_integrity": "passed"
+}

@@ -1,0 +1,33 @@
+{
+  "train": {
+    "body_transitions": 8473,
+    "mean_next_position_error_pixels": 0.3953123092651368,
+    "p95_next_position_error_pixels": 0.8558708131313323,
+    "mean_velocity_error": 0.009882807731628418
+  },
+  "validation": {
+    "body_transitions": 2144,
+    "mean_next_position_error_pixels": 0.39617374539375305,
+    "p95_next_position_error_pixels": 0.8438161127269268,
+    "mean_velocity_error": 0.009904343634843826
+  },
+  "test": {
+    "body_transitions": 2006,
+    "mean_next_position_error_pixels": 0.38874201476573944,
+    "p95_next_position_error_pixels": 0.8456476777791978,
+    "mean_velocity_error": 0.009718550369143486
+  },
+  "calibration_velocity_p90": [
+    [
+      0.0159156396985054,
+      0.01804954931139946
+    ],
+    [
+      0.014850092120468618,
+      0.05288164578378202
+    ]
+  ],
+  "members": 3,
+  "epochs": 160,
+  "seconds": 22.020282188
+}

@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    {
+      "seed": 2411,
+      "best": 0.875,
+      "best_ppo": 0.875,
+      "samples": 13706,
+      "ppo_steps": 8192
+    },
+    {
+      "seed": 2423,
+      "best": 0.825,
+      "best_ppo": 0.825,
+      "samples": 13635,
+      "ppo_steps": 8192
+    },
+    {
+      "seed": 2437,
+      "best": 0.8,
+      "best_ppo": 0.8,
+      "samples": 13847,
+      "ppo_steps": 8192
+    }
+  ],
+  "selected": {
+    "seed": 2411,
+    "best": 0.875,
+    "best_ppo": 0.875,
+    "samples": 13706,
+    "ppo_steps": 8192
+  },
+  "seconds": 2630.448269513,
+  "original_integrity": "passed"
+}

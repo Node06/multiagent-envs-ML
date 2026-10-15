@@ -1,0 +1,440 @@
+{"bc_epoch": 1, "loss": 0.11668197810649872, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.07355014234781265, "samples": 10833}
+Dropped Escape call with ulEscapeCode : 0x03007703
+VALIDATION {"seed": 2411, "success_rate": 0.8, "outcomes": {"obstacle_collision": 6, "success": 32, "perception_failure": 1, "caught": 1}, "mean_success_steps": 30.34375, "stage": "bc40"}
+{"bc_epoch": 1, "loss": 0.06506863236427307, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.08483744412660599, "samples": 10833}
+VALIDATION {"seed": 2411, "success_rate": 0.7, "outcomes": {"obstacle_collision": 9, "success": 28, "caught": 3}, "mean_success_steps": 29.571428571428573, "stage": "bc80"}
+DAGGER {"case": "hard_2511_000", "reason": "obstacle_collision", "samples": 7}
+DAGGER {"case": "hard_2511_001", "reason": "success", "samples": 49}
+DAGGER {"case": "hard_2511_002", "reason": "success", "samples": 77}
+DAGGER {"case": "hard_2511_003", "reason": "success", "samples": 130}
+DAGGER {"case": "hard_2511_004", "reason": "obstacle_collision", "samples": 140}
+DAGGER {"case": "hard_2511_005", "reason": "success", "samples": 169}
+DAGGER {"case": "hard_2511_006", "reason": "success", "samples": 194}
+DAGGER {"case": "hard_2511_007", "reason": "success", "samples": 242}
+DAGGER {"case": "hard_2511_008", "reason": "obstacle_collision", "samples": 253}
+DAGGER {"case": "hard_2511_009", "reason": "success", "samples": 268}
+DAGGER {"case": "hard_2511_010", "reason": "obstacle_collision", "samples": 281}
+DAGGER {"case": "hard_2511_011", "reason": "success", "samples": 292}
+DAGGER {"case": "hard_2511_012", "reason": "obstacle_collision", "samples": 305}
+DAGGER {"case": "hard_2511_013", "reason": "success", "samples": 366}
+DAGGER {"case": "hard_2511_014", "reason": "success", "samples": 398}
+DAGGER {"case": "hard_2511_015", "reason": "success", "samples": 424}
+DAGGER {"case": "hard_2511_016", "reason": "obstacle_collision", "samples": 439}
+DAGGER {"case": "hard_2511_017", "reason": "success", "samples": 476}
+DAGGER {"case": "hard_2511_018", "reason": "obstacle_collision", "samples": 488}
+DAGGER {"case": "hard_2511_019", "reason": "success", "samples": 510}
+DAGGER {"case": "hard_2511_020", "reason": "success", "samples": 534}
+DAGGER {"case": "hard_2511_021", "reason": "success", "samples": 579}
+DAGGER {"case": "hard_2511_022", "reason": "obstacle_collision", "samples": 588}
+DAGGER {"case": "hard_2511_023", "reason": "success", "samples": 652}
+DAGGER {"case": "hard_2511_024", "reason": "success", "samples": 677}
+DAGGER {"case": "hard_2511_025", "reason": "success", "samples": 717}
+DAGGER {"case": "hard_2511_026", "reason": "success", "samples": 745}
+DAGGER {"case": "hard_2511_027", "reason": "obstacle_collision", "samples": 750}
+DAGGER {"case": "hard_2511_028", "reason": "success", "samples": 774}
+DAGGER {"case": "hard_2511_029", "reason": "success", "samples": 791}
+DAGGER {"case": "hard_2511_030", "reason": "success", "samples": 806}
+DAGGER {"case": "hard_2511_031", "reason": "success", "samples": 816}
+DAGGER {"case": "hard_2511_032", "reason": "success", "samples": 842}
+DAGGER {"case": "hard_2511_033", "reason": "success", "samples": 889}
+DAGGER {"case": "hard_2511_034", "reason": "success", "samples": 917}
+DAGGER {"case": "hard_2511_035", "reason": "success", "samples": 957}
+DAGGER {"case": "hard_2511_036", "reason": "success", "samples": 972}
+DAGGER {"case": "hard_2511_037", "reason": "success", "samples": 1003}
+DAGGER {"case": "hard_2511_038", "reason": "obstacle_collision", "samples": 1016}
+DAGGER {"case": "hard_2511_039", "reason": "success", "samples": 1037}
+DAGGER {"case": "hard_2511_040", "reason": "success", "samples": 1066}
+DAGGER {"case": "hard_2511_041", "reason": "success", "samples": 1082}
+DAGGER {"case": "hard_2511_042", "reason": "success", "samples": 1108}
+DAGGER {"case": "hard_2511_043", "reason": "success", "samples": 1158}
+DAGGER {"case": "hard_2511_044", "reason": "success", "samples": 1178}
+DAGGER {"case": "hard_2511_045", "reason": "success", "samples": 1240}
+DAGGER {"case": "hard_2511_046", "reason": "obstacle_collision", "samples": 1247}
+DAGGER {"case": "hard_2511_047", "reason": "obstacle_collision", "samples": 1255}
+DAGGER {"case": "hard_2511_048", "reason": "success", "samples": 1281}
+DAGGER {"case": "hard_2511_049", "reason": "success", "samples": 1304}
+DAGGER {"case": "hard_2511_050", "reason": "obstacle_collision", "samples": 1314}
+DAGGER {"case": "hard_2511_051", "reason": "success", "samples": 1331}
+DAGGER {"case": "hard_2511_052", "reason": "success", "samples": 1350}
+DAGGER {"case": "hard_2511_053", "reason": "success", "samples": 1381}
+DAGGER {"case": "hard_2511_054", "reason": "obstacle_collision", "samples": 1395}
+DAGGER {"case": "hard_2511_055", "reason": "success", "samples": 1414}
+DAGGER {"case": "hard_2511_056", "reason": "success", "samples": 1437}
+DAGGER {"case": "hard_2511_057", "reason": "success", "samples": 1451}
+DAGGER {"case": "hard_2511_058", "reason": "obstacle_collision", "samples": 1461}
+DAGGER {"case": "hard_2511_059", "reason": "success", "samples": 1525}
+{"bc_epoch": 1, "loss": 0.09099389612674713, "samples": 12358}
+{"bc_epoch": 21, "loss": 0.06743234395980835, "samples": 12358}
+{"bc_epoch": 41, "loss": 0.08684521168470383, "samples": 12358}
+{"bc_epoch": 61, "loss": 0.07802092283964157, "samples": 12358}
+VALIDATION {"seed": 2411, "success_rate": 0.775, "outcomes": {"obstacle_collision": 7, "success": 31, "caught": 2}, "mean_success_steps": 31.806451612903224, "stage": "dagger1"}
+DAGGER {"case": "hard_2512_000", "reason": "success", "samples": 27}
+DAGGER {"case": "hard_2512_001", "reason": "success", "samples": 78}
+DAGGER {"case": "hard_2512_002", "reason": "success", "samples": 102}
+DAGGER {"case": "hard_2512_003", "reason": "obstacle_collision", "samples": 150}
+DAGGER {"case": "hard_2512_004", "reason": "success", "samples": 177}
+DAGGER {"case": "hard_2512_005", "reason": "success", "samples": 189}
+DAGGER {"case": "hard_2512_006", "reason": "obstacle_collision", "samples": 202}
+DAGGER {"case": "hard_2512_007", "reason": "success", "samples": 213}
+DAGGER {"case": "hard_2512_008", "reason": "obstacle_collision", "samples": 223}
+DAGGER {"case": "hard_2512_009", "reason": "success", "samples": 255}
+DAGGER {"case": "hard_2512_010", "reason": "obstacle_collision", "samples": 271}
+DAGGER {"case": "hard_2512_011", "reason": "success", "samples": 281}
+DAGGER {"case": "hard_2512_012", "reason": "success", "samples": 296}
+DAGGER {"case": "hard_2512_013", "reason": "obstacle_collision", "samples": 312}
+DAGGER {"case": "hard_2512_014", "reason": "obstacle_collision", "samples": 323}
+DAGGER {"case": "hard_2512_015", "reason": "caught", "samples": 359}
+DAGGER {"case": "hard_2512_016", "reason": "success", "samples": 386}
+DAGGER {"case": "hard_2512_017", "reason": "success", "samples": 430}
+DAGGER {"case": "hard_2512_018", "reason": "obstacle_collision", "samples": 441}
+DAGGER {"case": "hard_2512_019", "reason": "success", "samples": 488}
+DAGGER {"case": "hard_2512_020", "reason": "obstacle_collision", "samples": 496}
+DAGGER {"case": "hard_2512_021", "reason": "obstacle_collision", "samples": 506}
+DAGGER {"case": "hard_2512_022", "reason": "obstacle_collision", "samples": 512}
+DAGGER {"case": "hard_2512_023", "reason": "success", "samples": 522}
+DAGGER {"case": "hard_2512_024", "reason": "success", "samples": 546}
+DAGGER {"case": "hard_2512_025", "reason": "obstacle_collision", "samples": 555}
+DAGGER {"case": "hard_2512_026", "reason": "success", "samples": 582}
+DAGGER {"case": "hard_2512_027", "reason": "success", "samples": 600}
+DAGGER {"case": "hard_2512_028", "reason": "obstacle_collision", "samples": 607}
+DAGGER {"case": "hard_2512_029", "reason": "success", "samples": 641}
+DAGGER {"case": "hard_2512_030", "reason": "obstacle_collision", "samples": 647}
+DAGGER {"case": "hard_2512_031", "reason": "success", "samples": 689}
+DAGGER {"case": "hard_2512_032", "reason": "caught", "samples": 710}
+DAGGER {"case": "hard_2512_033", "reason": "success", "samples": 759}
+DAGGER {"case": "hard_2512_034", "reason": "obstacle_collision", "samples": 765}
+DAGGER {"case": "hard_2512_035", "reason": "success", "samples": 796}
+DAGGER {"case": "hard_2512_036", "reason": "success", "samples": 821}
+DAGGER {"case": "hard_2512_037", "reason": "success", "samples": 858}
+DAGGER {"case": "hard_2512_038", "reason": "obstacle_collision", "samples": 867}
+DAGGER {"case": "hard_2512_039", "reason": "obstacle_collision", "samples": 873}
+DAGGER {"case": "hard_2512_040", "reason": "obstacle_collision", "samples": 878}
+DAGGER {"case": "hard_2512_041", "reason": "success", "samples": 900}
+DAGGER {"case": "hard_2512_042", "reason": "obstacle_collision", "samples": 908}
+DAGGER {"case": "hard_2512_043", "reason": "success", "samples": 925}
+DAGGER {"case": "hard_2512_044", "reason": "obstacle_collision", "samples": 936}
+DAGGER {"case": "hard_2512_045", "reason": "success", "samples": 975}
+DAGGER {"case": "hard_2512_046", "reason": "success", "samples": 1001}
+DAGGER {"case": "hard_2512_047", "reason": "success", "samples": 1046}
+DAGGER {"case": "hard_2512_048", "reason": "obstacle_collision", "samples": 1057}
+DAGGER {"case": "hard_2512_049", "reason": "success", "samples": 1102}
+DAGGER {"case": "hard_2512_050", "reason": "success", "samples": 1128}
+DAGGER {"case": "hard_2512_051", "reason": "success", "samples": 1157}
+DAGGER {"case": "hard_2512_052", "reason": "obstacle_collision", "samples": 1171}
+DAGGER {"case": "hard_2512_053", "reason": "caught", "samples": 1186}
+DAGGER {"case": "hard_2512_054", "reason": "obstacle_collision", "samples": 1201}
+DAGGER {"case": "hard_2512_055", "reason": "success", "samples": 1250}
+DAGGER {"case": "hard_2512_056", "reason": "success", "samples": 1271}
+DAGGER {"case": "hard_2512_057", "reason": "success", "samples": 1289}
+DAGGER {"case": "hard_2512_058", "reason": "success", "samples": 1311}
+DAGGER {"case": "hard_2512_059", "reason": "success", "samples": 1348}
+{"bc_epoch": 1, "loss": 0.0968080684542656, "samples": 13706}
+{"bc_epoch": 21, "loss": 0.09133495390415192, "samples": 13706}
+{"bc_epoch": 41, "loss": 0.08081389963626862, "samples": 13706}
+{"bc_epoch": 61, "loss": 0.07820594310760498, "samples": 13706}
+VALIDATION {"seed": 2411, "success_rate": 0.875, "outcomes": {"obstacle_collision": 5, "success": 35}, "mean_success_steps": 31.17142857142857, "stage": "dagger2"}
+PPO {"seed": 2411, "steps": 1024, "policy_loss": -0.006503537588287145, "value_loss": 62.20199751853943, "bc_loss": 0.08088322216644883, "kl": 0.0020648962090490386}
+PPO {"seed": 2411, "steps": 2048, "policy_loss": -0.006443509919336066, "value_loss": 71.70979833602905, "bc_loss": 0.08055313257500529, "kl": 0.0015989290259312838}
+PPO {"seed": 2411, "steps": 3072, "policy_loss": -0.0057126103492919356, "value_loss": 62.942862033843994, "bc_loss": 0.07630294980481267, "kl": 0.0017638430290389806}
+PPO {"seed": 2411, "steps": 4096, "policy_loss": -0.005231450457358733, "value_loss": 62.92431974411011, "bc_loss": 0.07902427483350039, "kl": 0.0015173286374192685}
+VALIDATION {"seed": 2411, "success_rate": 0.875, "outcomes": {"obstacle_collision": 5, "success": 35}, "mean_success_steps": 31.142857142857142, "stage": "ppo4096"}
+PPO {"seed": 2411, "steps": 5120, "policy_loss": -0.00626778845617082, "value_loss": 59.760629415512085, "bc_loss": 0.08121319394558668, "kl": 0.001818534394260496}
+PPO {"seed": 2411, "steps": 6144, "policy_loss": -0.004907772206934169, "value_loss": 63.39159178733826, "bc_loss": 0.0831398875452578, "kl": 0.0012992523552384228}
+PPO {"seed": 2411, "steps": 7168, "policy_loss": -0.005613774177618325, "value_loss": 64.39796018600464, "bc_loss": 0.08000832982361317, "kl": 0.001773576659616083}
+PPO {"seed": 2411, "steps": 8192, "policy_loss": -0.004212630272377282, "value_loss": 59.4698269367218, "bc_loss": 0.07971881749108434, "kl": 0.0017646878259256482}
+VALIDATION {"seed": 2411, "success_rate": 0.875, "outcomes": {"obstacle_collision": 5, "success": 35}, "mean_success_steps": 31.228571428571428, "stage": "ppo8192"}
+{"bc_epoch": 1, "loss": 0.11451677978038788, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.11544772237539291, "samples": 10833}
+VALIDATION {"seed": 2423, "success_rate": 0.8, "outcomes": {"obstacle_collision": 6, "success": 32, "caught": 2}, "mean_success_steps": 30.5, "stage": "bc40"}
+{"bc_epoch": 1, "loss": 0.07679527252912521, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.07283797860145569, "samples": 10833}
+VALIDATION {"seed": 2423, "success_rate": 0.725, "outcomes": {"caught": 4, "success": 29, "obstacle_collision": 7}, "mean_success_steps": 30.551724137931036, "stage": "bc80"}
+DAGGER {"case": "hard_2523_000", "reason": "obstacle_collision", "samples": 12}
+DAGGER {"case": "hard_2523_001", "reason": "obstacle_collision", "samples": 18}
+DAGGER {"case": "hard_2523_002", "reason": "caught", "samples": 36}
+DAGGER {"case": "hard_2523_003", "reason": "success", "samples": 61}
+DAGGER {"case": "hard_2523_004", "reason": "success", "samples": 80}
+DAGGER {"case": "hard_2523_005", "reason": "success", "samples": 103}
+DAGGER {"case": "hard_2523_006", "reason": "success", "samples": 119}
+DAGGER {"case": "hard_2523_007", "reason": "success", "samples": 180}
+DAGGER {"case": "hard_2523_008", "reason": "success", "samples": 206}
+DAGGER {"case": "hard_2523_009", "reason": "success", "samples": 259}
+DAGGER {"case": "hard_2523_010", "reason": "success", "samples": 289}
+DAGGER {"case": "hard_2523_011", "reason": "success", "samples": 342}
+DAGGER {"case": "hard_2523_012", "reason": "obstacle_collision", "samples": 347}
+DAGGER {"case": "hard_2523_013", "reason": "success", "samples": 365}
+DAGGER {"case": "hard_2523_014", "reason": "obstacle_collision", "samples": 380}
+DAGGER {"case": "hard_2523_015", "reason": "success", "samples": 392}
+DAGGER {"case": "hard_2523_016", "reason": "obstacle_collision", "samples": 407}
+DAGGER {"case": "hard_2523_017", "reason": "success", "samples": 424}
+DAGGER {"case": "hard_2523_018", "reason": "obstacle_collision", "samples": 435}
+DAGGER {"case": "hard_2523_019", "reason": "success", "samples": 489}
+DAGGER {"case": "hard_2523_020", "reason": "obstacle_collision", "samples": 500}
+DAGGER {"case": "hard_2523_021", "reason": "success", "samples": 538}
+DAGGER {"case": "hard_2523_022", "reason": "obstacle_collision", "samples": 545}
+DAGGER {"case": "hard_2523_023", "reason": "success", "samples": 581}
+DAGGER {"case": "hard_2523_024", "reason": "obstacle_collision", "samples": 592}
+DAGGER {"case": "hard_2523_025", "reason": "obstacle_collision", "samples": 599}
+DAGGER {"case": "hard_2523_026", "reason": "success", "samples": 614}
+DAGGER {"case": "hard_2523_027", "reason": "success", "samples": 628}
+DAGGER {"case": "hard_2523_028", "reason": "success", "samples": 649}
+DAGGER {"case": "hard_2523_029", "reason": "success", "samples": 689}
+DAGGER {"case": "hard_2523_030", "reason": "obstacle_collision", "samples": 703}
+DAGGER {"case": "hard_2523_031", "reason": "obstacle_collision", "samples": 718}
+DAGGER {"case": "hard_2523_032", "reason": "obstacle_collision", "samples": 724}
+DAGGER {"case": "hard_2523_033", "reason": "success", "samples": 758}
+DAGGER {"case": "hard_2523_034", "reason": "success", "samples": 785}
+DAGGER {"case": "hard_2523_035", "reason": "success", "samples": 808}
+DAGGER {"case": "hard_2523_036", "reason": "obstacle_collision", "samples": 824}
+DAGGER {"case": "hard_2523_037", "reason": "success", "samples": 840}
+DAGGER {"case": "hard_2523_038", "reason": "success", "samples": 864}
+DAGGER {"case": "hard_2523_039", "reason": "success", "samples": 907}
+DAGGER {"case": "hard_2523_040", "reason": "success", "samples": 932}
+DAGGER {"case": "hard_2523_041", "reason": "success", "samples": 959}
+DAGGER {"case": "hard_2523_042", "reason": "success", "samples": 989}
+DAGGER {"case": "hard_2523_043", "reason": "success", "samples": 1013}
+DAGGER {"case": "hard_2523_044", "reason": "success", "samples": 1034}
+DAGGER {"case": "hard_2523_045", "reason": "success", "samples": 1073}
+DAGGER {"case": "hard_2523_046", "reason": "obstacle_collision", "samples": 1087}
+DAGGER {"case": "hard_2523_047", "reason": "success", "samples": 1121}
+DAGGER {"case": "hard_2523_048", "reason": "success", "samples": 1141}
+DAGGER {"case": "hard_2523_049", "reason": "success", "samples": 1180}
+DAGGER {"case": "hard_2523_050", "reason": "success", "samples": 1205}
+DAGGER {"case": "hard_2523_051", "reason": "success", "samples": 1270}
+DAGGER {"case": "hard_2523_052", "reason": "success", "samples": 1301}
+DAGGER {"case": "hard_2523_053", "reason": "success", "samples": 1318}
+DAGGER {"case": "hard_2523_054", "reason": "success", "samples": 1340}
+DAGGER {"case": "hard_2523_055", "reason": "success", "samples": 1354}
+DAGGER {"case": "hard_2523_056", "reason": "success", "samples": 1383}
+DAGGER {"case": "hard_2523_057", "reason": "success", "samples": 1415}
+DAGGER {"case": "hard_2523_058", "reason": "success", "samples": 1440}
+DAGGER {"case": "hard_2523_059", "reason": "obstacle_collision", "samples": 1461}
+{"bc_epoch": 1, "loss": 0.07407485693693161, "samples": 12294}
+{"bc_epoch": 21, "loss": 0.06859445571899414, "samples": 12294}
+{"bc_epoch": 41, "loss": 0.08836483955383301, "samples": 12294}
+{"bc_epoch": 61, "loss": 0.07578568905591965, "samples": 12294}
+VALIDATION {"seed": 2423, "success_rate": 0.825, "outcomes": {"success": 33, "obstacle_collision": 5, "caught": 2}, "mean_success_steps": 31.666666666666668, "stage": "dagger1"}
+DAGGER {"case": "hard_2524_000", "reason": "obstacle_collision", "samples": 8}
+DAGGER {"case": "hard_2524_001", "reason": "success", "samples": 70}
+DAGGER {"case": "hard_2524_002", "reason": "success", "samples": 92}
+DAGGER {"case": "hard_2524_003", "reason": "success", "samples": 115}
+DAGGER {"case": "hard_2524_004", "reason": "success", "samples": 139}
+DAGGER {"case": "hard_2524_005", "reason": "success", "samples": 150}
+DAGGER {"case": "hard_2524_006", "reason": "success", "samples": 178}
+DAGGER {"case": "hard_2524_007", "reason": "success", "samples": 192}
+DAGGER {"case": "hard_2524_008", "reason": "success", "samples": 222}
+DAGGER {"case": "hard_2524_009", "reason": "success", "samples": 245}
+DAGGER {"case": "hard_2524_010", "reason": "obstacle_collision", "samples": 259}
+DAGGER {"case": "hard_2524_011", "reason": "success", "samples": 312}
+DAGGER {"case": "hard_2524_012", "reason": "success", "samples": 360}
+DAGGER {"case": "hard_2524_013", "reason": "success", "samples": 411}
+DAGGER {"case": "hard_2524_014", "reason": "obstacle_collision", "samples": 418}
+DAGGER {"case": "hard_2524_015", "reason": "success", "samples": 454}
+DAGGER {"case": "hard_2524_016", "reason": "obstacle_collision", "samples": 461}
+DAGGER {"case": "hard_2524_017", "reason": "success", "samples": 488}
+DAGGER {"case": "hard_2524_018", "reason": "success", "samples": 513}
+DAGGER {"case": "hard_2524_019", "reason": "success", "samples": 546}
+DAGGER {"case": "hard_2524_020", "reason": "caught", "samples": 555}
+DAGGER {"case": "hard_2524_021", "reason": "success", "samples": 567}
+DAGGER {"case": "hard_2524_022", "reason": "success", "samples": 590}
+DAGGER {"case": "hard_2524_023", "reason": "success", "samples": 619}
+DAGGER {"case": "hard_2524_024", "reason": "obstacle_collision", "samples": 628}
+DAGGER {"case": "hard_2524_025", "reason": "success", "samples": 695}
+DAGGER {"case": "hard_2524_026", "reason": "obstacle_collision", "samples": 704}
+DAGGER {"case": "hard_2524_027", "reason": "obstacle_collision", "samples": 727}
+DAGGER {"case": "hard_2524_028", "reason": "obstacle_collision", "samples": 737}
+DAGGER {"case": "hard_2524_029", "reason": "success", "samples": 760}
+DAGGER {"case": "hard_2524_030", "reason": "obstacle_collision", "samples": 778}
+DAGGER {"case": "hard_2524_031", "reason": "obstacle_collision", "samples": 811}
+DAGGER {"case": "hard_2524_032", "reason": "obstacle_collision", "samples": 817}
+DAGGER {"case": "hard_2524_033", "reason": "success", "samples": 836}
+DAGGER {"case": "hard_2524_034", "reason": "obstacle_collision", "samples": 846}
+DAGGER {"case": "hard_2524_035", "reason": "success", "samples": 862}
+DAGGER {"case": "hard_2524_036", "reason": "success", "samples": 881}
+DAGGER {"case": "hard_2524_037", "reason": "success", "samples": 918}
+DAGGER {"case": "hard_2524_038", "reason": "obstacle_collision", "samples": 928}
+DAGGER {"case": "hard_2524_039", "reason": "success", "samples": 953}
+DAGGER {"case": "hard_2524_040", "reason": "obstacle_collision", "samples": 962}
+DAGGER {"case": "hard_2524_041", "reason": "success", "samples": 1013}
+DAGGER {"case": "hard_2524_042", "reason": "obstacle_collision", "samples": 1020}
+DAGGER {"case": "hard_2524_043", "reason": "obstacle_collision", "samples": 1026}
+DAGGER {"case": "hard_2524_044", "reason": "obstacle_collision", "samples": 1043}
+DAGGER {"case": "hard_2524_045", "reason": "obstacle_collision", "samples": 1053}
+DAGGER {"case": "hard_2524_046", "reason": "obstacle_collision", "samples": 1069}
+DAGGER {"case": "hard_2524_047", "reason": "success", "samples": 1102}
+DAGGER {"case": "hard_2524_048", "reason": "obstacle_collision", "samples": 1112}
+DAGGER {"case": "hard_2524_049", "reason": "success", "samples": 1128}
+DAGGER {"case": "hard_2524_050", "reason": "success", "samples": 1148}
+DAGGER {"case": "hard_2524_051", "reason": "success", "samples": 1163}
+DAGGER {"case": "hard_2524_052", "reason": "obstacle_collision", "samples": 1170}
+DAGGER {"case": "hard_2524_053", "reason": "success", "samples": 1202}
+DAGGER {"case": "hard_2524_054", "reason": "success", "samples": 1225}
+DAGGER {"case": "hard_2524_055", "reason": "success", "samples": 1259}
+DAGGER {"case": "hard_2524_056", "reason": "obstacle_collision", "samples": 1267}
+DAGGER {"case": "hard_2524_057", "reason": "success", "samples": 1309}
+DAGGER {"case": "hard_2524_058", "reason": "obstacle_collision", "samples": 1323}
+DAGGER {"case": "hard_2524_059", "reason": "success", "samples": 1341}
+{"bc_epoch": 1, "loss": 0.08328874409198761, "samples": 13635}
+{"bc_epoch": 21, "loss": 0.07540923357009888, "samples": 13635}
+{"bc_epoch": 41, "loss": 0.09462267905473709, "samples": 13635}
+{"bc_epoch": 61, "loss": 0.0635310485959053, "samples": 13635}
+VALIDATION {"seed": 2423, "success_rate": 0.75, "outcomes": {"obstacle_collision": 8, "success": 30, "caught": 2}, "mean_success_steps": 30.033333333333335, "stage": "dagger2"}
+PPO {"seed": 2423, "steps": 1024, "policy_loss": -0.007632205844856799, "value_loss": 61.98894000053406, "bc_loss": 0.09171887021511793, "kl": 0.0024089945072773844}
+PPO {"seed": 2423, "steps": 2048, "policy_loss": -0.007340932090301067, "value_loss": 69.93082785606384, "bc_loss": 0.08429591497406363, "kl": 0.0019591492309700698}
+PPO {"seed": 2423, "steps": 3072, "policy_loss": -0.004136271367315203, "value_loss": 66.86594581604004, "bc_loss": 0.08665389148518443, "kl": 0.0012690631265286356}
+PPO {"seed": 2423, "steps": 4096, "policy_loss": -0.004547386197373271, "value_loss": 62.80468559265137, "bc_loss": 0.09023139299824834, "kl": 0.001325647346675396}
+VALIDATION {"seed": 2423, "success_rate": 0.825, "outcomes": {"success": 33, "obstacle_collision": 5, "caught": 2}, "mean_success_steps": 31.666666666666668, "stage": "ppo4096"}
+PPO {"seed": 2423, "steps": 5120, "policy_loss": -0.0055572864366695285, "value_loss": 64.74345111846924, "bc_loss": 0.09122766507789493, "kl": 0.00142815281287767}
+PPO {"seed": 2423, "steps": 6144, "policy_loss": -0.00632293795933947, "value_loss": 60.208059310913086, "bc_loss": 0.0851592686958611, "kl": 0.0015272983437171206}
+PPO {"seed": 2423, "steps": 7168, "policy_loss": -0.003608908737078309, "value_loss": 68.2497148513794, "bc_loss": 0.08991154516115785, "kl": 0.0009073819237528369}
+PPO {"seed": 2423, "steps": 8192, "policy_loss": -0.006002413923852146, "value_loss": 61.63903737068176, "bc_loss": 0.08911500684916973, "kl": 0.0016974733007373288}
+VALIDATION {"seed": 2423, "success_rate": 0.825, "outcomes": {"success": 33, "obstacle_collision": 5, "caught": 2}, "mean_success_steps": 31.666666666666668, "stage": "ppo8192"}
+{"bc_epoch": 1, "loss": 0.10569126158952713, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.08086226135492325, "samples": 10833}
+VALIDATION {"seed": 2437, "success_rate": 0.8, "outcomes": {"obstacle_collision": 6, "success": 32, "caught": 1, "perception_failure": 1}, "mean_success_steps": 30.9375, "stage": "bc40"}
+{"bc_epoch": 1, "loss": 0.07136567682027817, "samples": 10833}
+{"bc_epoch": 21, "loss": 0.06606964021921158, "samples": 10833}
+VALIDATION {"seed": 2437, "success_rate": 0.725, "outcomes": {"obstacle_collision": 9, "success": 29, "caught": 2}, "mean_success_steps": 29.896551724137932, "stage": "bc80"}
+DAGGER {"case": "hard_2537_000", "reason": "obstacle_collision", "samples": 8}
+DAGGER {"case": "hard_2537_001", "reason": "success", "samples": 38}
+DAGGER {"case": "hard_2537_002", "reason": "obstacle_collision", "samples": 44}
+DAGGER {"case": "hard_2537_003", "reason": "success", "samples": 99}
+DAGGER {"case": "hard_2537_004", "reason": "success", "samples": 132}
+DAGGER {"case": "hard_2537_005", "reason": "success", "samples": 148}
+DAGGER {"case": "hard_2537_006", "reason": "success", "samples": 173}
+DAGGER {"case": "hard_2537_007", "reason": "success", "samples": 192}
+DAGGER {"case": "hard_2537_008", "reason": "obstacle_collision", "samples": 207}
+DAGGER {"case": "hard_2537_009", "reason": "success", "samples": 249}
+DAGGER {"case": "hard_2537_010", "reason": "success", "samples": 271}
+DAGGER {"case": "hard_2537_011", "reason": "success", "samples": 330}
+DAGGER {"case": "hard_2537_012", "reason": "success", "samples": 358}
+DAGGER {"case": "hard_2537_013", "reason": "success", "samples": 419}
+DAGGER {"case": "hard_2537_014", "reason": "success", "samples": 442}
+DAGGER {"case": "hard_2537_015", "reason": "success", "samples": 484}
+DAGGER {"case": "hard_2537_016", "reason": "success", "samples": 507}
+DAGGER {"case": "hard_2537_017", "reason": "success", "samples": 545}
+DAGGER {"case": "hard_2537_018", "reason": "success", "samples": 567}
+DAGGER {"case": "hard_2537_019", "reason": "success", "samples": 597}
+DAGGER {"case": "hard_2537_020", "reason": "success", "samples": 633}
+DAGGER {"case": "hard_2537_021", "reason": "success", "samples": 661}
+DAGGER {"case": "hard_2537_022", "reason": "obstacle_collision", "samples": 674}
+DAGGER {"case": "hard_2537_023", "reason": "success", "samples": 684}
+DAGGER {"case": "hard_2537_024", "reason": "success", "samples": 713}
+DAGGER {"case": "hard_2537_025", "reason": "success", "samples": 733}
+DAGGER {"case": "hard_2537_026", "reason": "obstacle_collision", "samples": 742}
+DAGGER {"case": "hard_2537_027", "reason": "success", "samples": 765}
+DAGGER {"case": "hard_2537_028", "reason": "success", "samples": 791}
+DAGGER {"case": "hard_2537_029", "reason": "success", "samples": 803}
+DAGGER {"case": "hard_2537_030", "reason": "success", "samples": 832}
+DAGGER {"case": "hard_2537_031", "reason": "success", "samples": 889}
+DAGGER {"case": "hard_2537_032", "reason": "success", "samples": 915}
+DAGGER {"case": "hard_2537_033", "reason": "success", "samples": 956}
+DAGGER {"case": "hard_2537_034", "reason": "obstacle_collision", "samples": 968}
+DAGGER {"case": "hard_2537_035", "reason": "success", "samples": 1003}
+DAGGER {"case": "hard_2537_036", "reason": "obstacle_collision", "samples": 1011}
+DAGGER {"case": "hard_2537_037", "reason": "success", "samples": 1075}
+DAGGER {"case": "hard_2537_038", "reason": "obstacle_collision", "samples": 1081}
+DAGGER {"case": "hard_2537_039", "reason": "success", "samples": 1115}
+DAGGER {"case": "hard_2537_040", "reason": "obstacle_collision", "samples": 1120}
+DAGGER {"case": "hard_2537_041", "reason": "success", "samples": 1156}
+DAGGER {"case": "hard_2537_042", "reason": "obstacle_collision", "samples": 1173}
+DAGGER {"case": "hard_2537_043", "reason": "success", "samples": 1236}
+DAGGER {"case": "hard_2537_044", "reason": "obstacle_collision", "samples": 1242}
+DAGGER {"case": "hard_2537_045", "reason": "success", "samples": 1252}
+DAGGER {"case": "hard_2537_046", "reason": "obstacle_collision", "samples": 1261}
+DAGGER {"case": "hard_2537_047", "reason": "success", "samples": 1296}
+DAGGER {"case": "hard_2537_048", "reason": "success", "samples": 1315}
+DAGGER {"case": "hard_2537_049", "reason": "success", "samples": 1355}
+DAGGER {"case": "hard_2537_050", "reason": "success", "samples": 1370}
+DAGGER {"case": "hard_2537_051", "reason": "success", "samples": 1383}
+DAGGER {"case": "hard_2537_052", "reason": "obstacle_collision", "samples": 1390}
+DAGGER {"case": "hard_2537_053", "reason": "obstacle_collision", "samples": 1404}
+DAGGER {"case": "hard_2537_054", "reason": "success", "samples": 1421}
+DAGGER {"case": "hard_2537_055", "reason": "success", "samples": 1436}
+DAGGER {"case": "hard_2537_056", "reason": "success", "samples": 1470}
+DAGGER {"case": "hard_2537_057", "reason": "success", "samples": 1488}
+DAGGER {"case": "hard_2537_058", "reason": "success", "samples": 1504}
+DAGGER {"case": "hard_2537_059", "reason": "success", "samples": 1526}
+{"bc_epoch": 1, "loss": 0.0869181752204895, "samples": 12359}
+{"bc_epoch": 21, "loss": 0.09408978372812271, "samples": 12359}
+{"bc_epoch": 41, "loss": 0.10714810341596603, "samples": 12359}
+{"bc_epoch": 61, "loss": 0.07667381316423416, "samples": 12359}
+VALIDATION {"seed": 2437, "success_rate": 0.7, "outcomes": {"obstacle_collision": 8, "success": 28, "caught": 4}, "mean_success_steps": 31.178571428571427, "stage": "dagger1"}
+DAGGER {"case": "hard_2538_000", "reason": "success", "samples": 28}
+DAGGER {"case": "hard_2538_001", "reason": "obstacle_collision", "samples": 34}
+DAGGER {"case": "hard_2538_002", "reason": "success", "samples": 56}
+DAGGER {"case": "hard_2538_003", "reason": "success", "samples": 115}
+DAGGER {"case": "hard_2538_004", "reason": "success", "samples": 143}
+DAGGER {"case": "hard_2538_005", "reason": "success", "samples": 193}
+DAGGER {"case": "hard_2538_006", "reason": "success", "samples": 217}
+DAGGER {"case": "hard_2538_007", "reason": "success", "samples": 227}
+DAGGER {"case": "hard_2538_008", "reason": "obstacle_collision", "samples": 233}
+DAGGER {"case": "hard_2538_009", "reason": "success", "samples": 260}
+DAGGER {"case": "hard_2538_010", "reason": "obstacle_collision", "samples": 270}
+DAGGER {"case": "hard_2538_011", "reason": "success", "samples": 307}
+DAGGER {"case": "hard_2538_012", "reason": "obstacle_collision", "samples": 320}
+DAGGER {"case": "hard_2538_013", "reason": "success", "samples": 340}
+DAGGER {"case": "hard_2538_014", "reason": "success", "samples": 358}
+DAGGER {"case": "hard_2538_015", "reason": "success", "samples": 404}
+DAGGER {"case": "hard_2538_016", "reason": "success", "samples": 434}
+DAGGER {"case": "hard_2538_017", "reason": "success", "samples": 446}
+DAGGER {"case": "hard_2538_018", "reason": "obstacle_collision", "samples": 457}
+DAGGER {"case": "hard_2538_019", "reason": "success", "samples": 484}
+DAGGER {"case": "hard_2538_020", "reason": "success", "samples": 507}
+DAGGER {"case": "hard_2538_021", "reason": "success", "samples": 531}
+DAGGER {"case": "hard_2538_022", "reason": "obstacle_collision", "samples": 539}
+DAGGER {"case": "hard_2538_023", "reason": "success", "samples": 559}
+DAGGER {"case": "hard_2538_024", "reason": "obstacle_collision", "samples": 572}
+DAGGER {"case": "hard_2538_025", "reason": "success", "samples": 609}
+DAGGER {"case": "hard_2538_026", "reason": "obstacle_collision", "samples": 617}
+DAGGER {"case": "hard_2538_027", "reason": "success", "samples": 687}
+DAGGER {"case": "hard_2538_028", "reason": "success", "samples": 709}
+DAGGER {"case": "hard_2538_029", "reason": "success", "samples": 726}
+DAGGER {"case": "hard_2538_030", "reason": "caught", "samples": 747}
+DAGGER {"case": "hard_2538_031", "reason": "success", "samples": 792}
+DAGGER {"case": "hard_2538_032", "reason": "obstacle_collision", "samples": 805}
+DAGGER {"case": "hard_2538_033", "reason": "success", "samples": 829}
+DAGGER {"case": "hard_2538_034", "reason": "obstacle_collision", "samples": 834}
+DAGGER {"case": "hard_2538_035", "reason": "success", "samples": 866}
+DAGGER {"case": "hard_2538_036", "reason": "success", "samples": 890}
+DAGGER {"case": "hard_2538_037", "reason": "obstacle_collision", "samples": 896}
+DAGGER {"case": "hard_2538_038", "reason": "success", "samples": 915}
+DAGGER {"case": "hard_2538_039", "reason": "caught", "samples": 929}
+DAGGER {"case": "hard_2538_040", "reason": "obstacle_collision", "samples": 937}
+DAGGER {"case": "hard_2538_041", "reason": "success", "samples": 967}
+DAGGER {"case": "hard_2538_042", "reason": "obstacle_collision", "samples": 974}
+DAGGER {"case": "hard_2538_043", "reason": "success", "samples": 1018}
+DAGGER {"case": "hard_2538_044", "reason": "success", "samples": 1035}
+DAGGER {"case": "hard_2538_045", "reason": "success", "samples": 1078}
+DAGGER {"case": "hard_2538_046", "reason": "success", "samples": 1101}
+DAGGER {"case": "hard_2538_047", "reason": "success", "samples": 1140}
+DAGGER {"case": "hard_2538_048", "reason": "obstacle_collision", "samples": 1147}
+DAGGER {"case": "hard_2538_049", "reason": "success", "samples": 1208}
+DAGGER {"case": "hard_2538_050", "reason": "success", "samples": 1232}
+DAGGER {"case": "hard_2538_051", "reason": "success", "samples": 1294}
+DAGGER {"case": "hard_2538_052", "reason": "obstacle_collision", "samples": 1299}
+DAGGER {"case": "hard_2538_053", "reason": "success", "samples": 1345}
+DAGGER {"case": "hard_2538_054", "reason": "obstacle_collision", "samples": 1352}
+DAGGER {"case": "hard_2538_055", "reason": "success", "samples": 1386}
+DAGGER {"case": "hard_2538_056", "reason": "success", "samples": 1417}
+DAGGER {"case": "hard_2538_057", "reason": "success", "samples": 1436}
+DAGGER {"case": "hard_2538_058", "reason": "obstacle_collision", "samples": 1443}
+DAGGER {"case": "hard_2538_059", "reason": "success", "samples": 1488}
+{"bc_epoch": 1, "loss": 0.12263783067464828, "samples": 13847}
+{"bc_epoch": 21, "loss": 0.11513450741767883, "samples": 13847}
+{"bc_epoch": 41, "loss": 0.09302420914173126, "samples": 13847}
+{"bc_epoch": 61, "loss": 0.08132753521203995, "samples": 13847}
+VALIDATION {"seed": 2437, "success_rate": 0.75, "outcomes": {"caught": 4, "success": 30, "obstacle_collision": 6}, "mean_success_steps": 32.03333333333333, "stage": "dagger2"}
+PPO {"seed": 2437, "steps": 1024, "policy_loss": -0.005181029046070762, "value_loss": 67.62668490409851, "bc_loss": 0.10399086913093925, "kl": 0.0015532241523033008}
+PPO {"seed": 2437, "steps": 2048, "policy_loss": -0.004971731686964631, "value_loss": 66.06115484237671, "bc_loss": 0.10121557582169771, "kl": 0.0018100905872415751}
+PPO {"seed": 2437, "steps": 3072, "policy_loss": -0.0036101643927395344, "value_loss": 67.04193544387817, "bc_loss": 0.10190936317667365, "kl": 0.000676158320857212}
+PPO {"seed": 2437, "steps": 4096, "policy_loss": -0.004691349400673062, "value_loss": 63.3026659488678, "bc_loss": 0.09834345430135727, "kl": 0.0014436044148169458}
+VALIDATION {"seed": 2437, "success_rate": 0.8, "outcomes": {"obstacle_collision": 6, "success": 32, "caught": 2}, "mean_success_steps": 31.0, "stage": "ppo4096"}
+PPO {"seed": 2437, "steps": 5120, "policy_loss": -0.004177588853053749, "value_loss": 64.91401410102844, "bc_loss": 0.09887002408504486, "kl": 0.0012467654887586832}
+PPO {"seed": 2437, "steps": 6144, "policy_loss": -0.003216570010408759, "value_loss": 66.29259824752808, "bc_loss": 0.10188711481168866, "kl": 0.0011611590016400442}
+PPO {"seed": 2437, "steps": 7168, "policy_loss": -0.004507262259721756, "value_loss": 66.2806031703949, "bc_loss": 0.10301597230136395, "kl": 0.001291951077291742}
+PPO {"seed": 2437, "steps": 8192, "policy_loss": -0.005310862907208502, "value_loss": 66.8624107837677, "bc_loss": 0.10451818071305752, "kl": 0.001926136072142981}
+VALIDATION {"seed": 2437, "success_rate": 0.775, "outcomes": {"obstacle_collision": 6, "success": 31, "caught": 3}, "mean_success_steps": 30.70967741935484, "stage": "ppo8192"}
+OPTIMIZATION TRAINING COMPLETE

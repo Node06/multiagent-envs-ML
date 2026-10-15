@@ -1,12 +1,14 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "teacher_source_baseline": "ca0f9ab",
   "teacher_source_diff": "empty",
-  "tests": "26 passed under WSL2 Ubuntu22.04 CPU",
-  "primary_model": "wsl-support/learned_control/outputs/main_20261014/primary_ppo.pt",
-  "course_success": "42/60",
-  "stress_success": "22/30",
-  "default_demo": "caught at step22",
+  "tests": "37 passed under WSL2 Ubuntu22.04 CPU with EGL offscreen rendering",
+  "primary_model": "wsl-support/learned_mpc/outputs/main_20261014/world_empirical.pt",
+  "course_success": "100/100",
+  "stress_success": "30/30",
+  "default_demo": {
+    "success": 1
+  },
   "excluded": [
     "local Python environments",
     "caches",
@@ -3370,7 +3372,423 @@
     "wsl-support/vision_ppo/outputs/formal_20261013/seed37/validation_cases.json": "3ecdc93a8835bb7a4c8dfd6e653c3a3d40096e1a82bed4f4e90402eb4fe3ad7a",
     "wsl-support/vision_ppo/outputs/formal_20261013/seed37.log": "5759eb890b35ab64dab0e9ccd2733834173a69a9e2e751111743f720f3cbd184",
     "wsl-support/vision_ppo/outputs/formal_20261013/selected_model.json": "a77d4ba1c6401de18be3da568484725913f0c222fb4e51b0dee4bc6a61329209",
-    "wsl-support/vision_ppo/outputs/formal_20261013/实验报告.md": "79b8d1439349e706c285f0ac77de311912afff52ddb028711bc38eabdb26ec51"
+    "wsl-support/vision_ppo/outputs/formal_20261013/实验报告.md": "79b8d1439349e706c285f0ac77de311912afff52ddb028711bc38eabdb26ec51",
+    "wsl-support/learned_control/directional_train.log": "0c15f5e9e72ec975a5c6e3c7aa4ffee836ae70c0df8e84a2ce89cfbfbd5c45e2",
+    "wsl-support/learned_control/optimization_evaluation.log": "a4a508adf61a363c6d00535cc9fd3d4887c38d0c8144b9e8581f7841dabf553a",
+    "wsl-support/learned_control/optimization_smoke.log": "d62e73f7b0941ffc21a7f1d2e62761919402d9ff7355cd01d83876f91cbf2330",
+    "wsl-support/learned_control/optimization_train.log": "4f5a42aba02502726531e1241c2dbf30bc57879f0f0afeea4990fd460ca40208",
+    "wsl-support/learned_control/outputs/directional_20261014/best.pt": "16f6bf546702b647932d8ea3027f44d2506ea34c87d4e98e73938398a716fe1d",
+    "wsl-support/learned_control/outputs/directional_20261014/classifier20.pt": "b545b6594e7cb95b6c2c502f14cc79c436025209d4b68ae33bb483c5ee35d699",
+    "wsl-support/learned_control/outputs/directional_20261014/classifier40.pt": "f8b39645a6a370c91766cbbee5ad48fa1d97b6ce64fbfe1b188fbe31472acb6d",
+    "wsl-support/learned_control/outputs/directional_20261014/classifier60.pt": "839b50f21c07da32ccd4af6eb476a9515bf3fec11e072eb6c4907d678de1d6ae",
+    "wsl-support/learned_control/outputs/directional_20261014/classifier80.pt": "169b1725ba02bc513bc0448f997318ee783f4e2032b385db786e9b5d868e3fa2",
+    "wsl-support/learned_control/outputs/directional_20261014/configuration.json": "8aab9d212c42dc1891b6ce6c79f41cd0d7d60bb491ac6dbdb8f9c1eaceafc1f0",
+    "wsl-support/learned_control/outputs/directional_20261014/dagger.pt": "7a5542c4c535e4613173e14cb8261aefedd76e2bf07b22da6fc6480cb02287f2",
+    "wsl-support/learned_control/outputs/directional_20261014/dagger_cases.json": "66bfa8a1b02e8155e24def668a17c445c01ff95bfd360c98f3c1f0012161b2c9",
+    "wsl-support/learned_control/outputs/directional_20261014/demonstrations.npz": "02535571199c033450a4a0821c06bc9dcc3102fc0715140ab23d0b11b619a34d",
+    "wsl-support/learned_control/outputs/directional_20261014/imitation_best.pt": "7366551eea789abe44b26607a783dd0dd1589dba784ecf458451f9c6bd6ec5ed",
+    "wsl-support/learned_control/outputs/directional_20261014/ppo4096.pt": "4c7369d4474528b847e975ff112e2558c3245d7c51920b9a9830622986b4bf53",
+    "wsl-support/learned_control/outputs/directional_20261014/ppo8192.pt": "7523bcb41e221d2719ef2b1d2debee9ec5bca3dea05af3031a3daf1adecbbfae",
+    "wsl-support/learned_control/outputs/directional_20261014/primary_ppo.pt": "d77debe9d8c02213449b7c097f60ca5ae88b3b87719ae31d131ac8ef74a5f6a7",
+    "wsl-support/learned_control/outputs/directional_20261014/primary_selection.json": "79b9601886a27ab6924468fad1e3c027d1f4bd1e0cc0c22bf4a8decce358103e",
+    "wsl-support/learned_control/outputs/directional_20261014/training_summary.json": "244673ac5921dd5b13b39e7ccba14f2a1b81fb483539787fdfef6c6cfe32b145",
+    "wsl-support/learned_control/outputs/directional_20261014/validation.json": "4f3ac3805bdae30a72269f7f6c4d659c8ba12f26ac478daf908bb2f7afc49924",
+    "wsl-support/learned_control/outputs/directional_20261014/validation_cases.json": "a4f26daa574ab88614ab54866741cfcb9f1b45e03fa3d4e70d74d4f025bf6b2b",
+    "wsl-support/learned_control/outputs/optimized_20261014/complete.json": "46a7c7191eca29e2928bfb4797ef227c827577d1f9fef5462ffcc74b490c7f64",
+    "wsl-support/learned_control/outputs/optimized_20261014/configuration.json": "e259cecf7b2f25f21da696c925dfad3244ed8c108c38fda912fae5ab33ff2fa2",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/cases.json": "3728a174c86845a54a4eb72f376b253fb8fc314162afdfcd22823b0270d55fe1",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/frozen_models.json": "11c86340c6ba99f0a10ecd1647667e450886f64b9233d021a7ccb30d1790bb6c",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/mpc_default_demo.mp4": "e05fb8a483ffa0f9ace32cc6578e1d524e0cb67f1a91dc084ce0f02de3163170",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/mpc_default_demo_trajectory.json": "148bd143e29a442cd9eabecfbf3cc00a75da488305c07219318755fc5dde0268",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/mpc_s2026101428_000.mp4": "65cd85d261279aad65d83b2304019fb2a737ad05b004f5601a8db960ecdf585b",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/mpc_s2026101428_000_trajectory.json": "c22ce32ba44215a0e1741ff84af7fab3b92bf2ac07a38812661f672e3cb57368",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/optimized_imitation_default_demo.mp4": "6ffc879f7885fa7159cec82bb4c2979bdfd7aa843e3142e3c1d3db0fd65387b1",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/optimized_imitation_default_demo_trajectory.json": "847a42957881377bfd634ae3b34f78c91e1f9f42731f9e056594765961e11aa4",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/optimized_imitation_s2026101428_000.mp4": "dbc0e28edcb0ab2fca6fe13255c92a8024be4d708dd353b53fbd6c624775dd4a",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/optimized_imitation_s2026101428_000_trajectory.json": "0e452f8fa6a9854ef82c037cb7852ebfeac55af0aea46f4d2dad760f9d2d5457",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/previous_main_default_demo.mp4": "f2a661df81dd28a969a53f3792f31a32a8146501ad271413c5aeba3e3b35a974",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/previous_main_default_demo_trajectory.json": "2e694f2da5dd7f4ae20915e5c0fa5cfb577b10c8a45c78a23f3bf204a1fc3e01",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/previous_main_s2026101428_000.mp4": "8c79184c336859e699c0f36dafc7cee6f81d2b503947f05e93e1346d081010a8",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/previous_main_s2026101428_000_trajectory.json": "aa26b48158ac9c5942cfc5507de143064b87cfa79160acfd565f842df9333515",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/results.csv": "1aa656f95c703e227a7de27481b2bd7adc793c51f53f1dc108834c240c28e525",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2411_default_demo.mp4": "4c79067b7f0b96e7359b657102f155664c38f6055214c2941a5354eefeb0e868",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2411_default_demo_trajectory.json": "16690b967cc452f39322f595d0a7f3e382c4436a6f3a93ff92583065dd019e20",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2411_s2026101428_000.mp4": "498e706f9ffab54f86b215af4e99390360a061c0bb34ed7742c001090dd3b194",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2411_s2026101428_000_trajectory.json": "a5da7b7b111570e92485d7aeec6780726eb6f757affbede61f9fa139dbf1f5ee",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2423_default_demo.mp4": "1dfc5f8024ef83c349b298fd8dc914be493e485028d01574738f8f6966fa06d6",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2423_default_demo_trajectory.json": "9bd22e05713d3eb04e4da7f33cb9c04b23da2c9e3d343fb5fb657640e73f853b",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2423_s2026101428_000.mp4": "175ee07d8a73842683658aa7a59b63c44276ec901b9cbb1fa16a6e92dbd8470a",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2423_s2026101428_000_trajectory.json": "2edf741932aadbbdf4791ab48d287b122e888aecc4de93a98fb1b826ed75903e",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2437_default_demo.mp4": "feba27c1b5ca0627feb9cfc980e8c22bd3441b44eb1ebfe15e0909e588e9f52e",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2437_default_demo_trajectory.json": "604b731ff78c69e0552b3499003e15fed626ae7ce5ce57e05943cd51a7081af6",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2437_s2026101428_000.mp4": "4effc759cec0db0ad27cda75bf794afe95c89f669d708794d4c9a3ab4d5c4bef",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/seed2437_s2026101428_000_trajectory.json": "036b3e43d1c70df264aed64c97e741032e4a249abcaa4383562f1d5b22b1eb9c",
+    "wsl-support/learned_control/outputs/optimized_20261014/evaluation/summary.json": "2addb093ec92397ba7d034dd8c92afbe8b077122b102503768b91826ea2388bf",
+    "wsl-support/learned_control/outputs/optimized_20261014/paired_comparison.json": "887c84468b709e049a0ca6c4e84a272c97afd2ad1be9d1571668cff53a105254",
+    "wsl-support/learned_control/outputs/optimized_20261014/paired_success.png": "2830a668c94a4e06b30436bb01cc70ff972bb9ba5f01fdb7a802f086408051c6",
+    "wsl-support/learned_control/outputs/optimized_20261014/previous_validation.json": "5af807f0e390bf1e9b034829358db57c9391c457cb545d65573d19cda6b37926",
+    "wsl-support/learned_control/outputs/optimized_20261014/primary_ppo.pt": "9194a8249e6556f19f304f7fad148663ccb915647ac21930a721a1ccc279590a",
+    "wsl-support/learned_control/outputs/optimized_20261014/primary_selection.json": "60fb0fcb90a158fa826704307ad8c5f355e4b9fa02052e2787a614ba4a73bb06",
+    "wsl-support/learned_control/outputs/optimized_20261014/progress.json": "4c6f2c9f3f2cc2bda3b9ef40e7e7b4284ba3a171f19ca4af1cb784df5492fc65",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/bc40.pt": "41d12f19538ebb74ca9f939d2669335685712cc547422ff1950583a28666b2ad",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/bc80.pt": "906c408ec079c083d44bc7be29ed33a129acc38fbead7dd5c34b0dfb2d0b1598",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/best.pt": "f04abaec5e03e50315dbdcc4750d319d49c80b6846963db76c447131d061797f",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/dagger1.pt": "c721379fbfa73921d56c2da88fe08bee80eebcffaef7c09d83013490178eaa3a",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/dagger1_cases.json": "9e1506ab1fea77e1733c0954e6e8dfb086762261b4ef98d42f4a760da1803118",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/dagger2.pt": "fa2c015953e4f9f803c043327d2ee9c73c92608c5bc7a75ca6d0871d4e0f56dc",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/dagger2_cases.json": "1585484042f3b05c6f84be19dcc74f610aa626c16b4433d041b5d43b5725682d",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/demonstrations.npz": "b0033accb04096a4c3cb825672c7ffc698a6c03a84d78f156a1e0b2d029bd303",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/imitation_best.pt": "7bdc3b546078aaab93fb13c34f1c2084df20dde718ebfa0ee88df9a9467fc098",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/ppo4096.pt": "e61566e0d0eecf25d50971cc64e0b613793833f81f3f5d2e3ce07d8d670bbbed",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/ppo8192.pt": "453690283b6dc9c0ae18c8a6a7d7c6402a33787344858e7156759ea5574d2cfd",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/primary_ppo.pt": "9194a8249e6556f19f304f7fad148663ccb915647ac21930a721a1ccc279590a",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2411/validation.json": "549287e264bf55cd53b778fa9a5a492172a7d2290c0f32fd1a4eb4d91035a5ad",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/bc40.pt": "8a858f8918ace43e4ba9f303abca5999802b9dcb0ecd8218e782cc1edec160e2",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/bc80.pt": "b41ce87b38755ec3bd3d7226b9e07ed48782eccb3bb4d7485c3300eacc4342fd",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/best.pt": "8a908fe654bb945d7ad0067355c63f1cbc1deb3cd43038d74dbd5ca275f9560e",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/dagger1.pt": "4d0297e718dbe70ee0d98a04bd49fedee48b5ea87c323509cdf758ed238f3701",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/dagger1_cases.json": "1d9f6a6db710a504d964861051b82d3a31d356747e45880305bfdf38f2bcf0b9",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/dagger2.pt": "de0aec0e5e584eb4f8685843a3cd3e822136bc4e103f15d3999be034de1e3327",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/dagger2_cases.json": "afa744e41ddd5f6233e01df9b03fa3ee0ac7871183d6aa9fa9b370ecd3ee7792",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/demonstrations.npz": "4939bf866ebcee4721ef42893a6e2558c7e9c96613c46117602f6cb3bf1db1c9",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/imitation_best.pt": "07f0e81ea5ceb8bdc18d557923da57204a3bb0dcaa2e055a558d1d1e28895009",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/ppo4096.pt": "dcd7e116ed9a73f1a143698f43ab7037b34be7f5b427829019d63124cd318e4d",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/ppo8192.pt": "8bc9661355b5ef746f9ec9e5c93b033f8cbbb1bdbef145eae8e9310e508797ee",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/primary_ppo.pt": "1959e467fd89249fb5fed6bc0f376f720e56153a984d95d404b7c881fbbd212b",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2423/validation.json": "a59914e5707af6e67fc7ca8778acb69a5104868d9cd0eff3e449fc21b1d29152",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/bc40.pt": "aa74835ff42a804caf024f1e678bdf71150491a389647a53e4c3b6e8e6eee09d",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/bc80.pt": "aa376d6e55e8723a54827ebf9fa7e8ee56ae9a14d546db1a678dabced30b4b3c",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/best.pt": "c2666babf5132092a41ca301f88a2ca652802de17186bce313ffde7d424ad9b0",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/dagger1.pt": "c2bb5c539215c2c74a3f80c6ea1d9accf0dc3076bc1456a32ab76fff18bbf999",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/dagger1_cases.json": "04638e1b08604548c29a020240f1cc301e1bbeffeea47cec350e3bcdfeba0257",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/dagger2.pt": "80accf623bc59021cddd41e5078699028abec31119adf44520691a2b741ef9da",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/dagger2_cases.json": "37cfbf3c79ac94f7ba81b4b89f49ebd65d80e9c80c8b3e4527836b353e98de4e",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/demonstrations.npz": "f2bcf5c63b64b4d5cc650c55e374f5b612769b38f1f1dec67e5ff553cf39b278",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/imitation_best.pt": "d357b769375f671a0e5f2287204a6cc758a235c2bd880450eba3e410d71963b9",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/ppo4096.pt": "23b97b00f006b2e0f44c0e2875e66d7ffe04aa67875199650719c36dca1a2d75",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/ppo8192.pt": "4de6abd4d053c5e1f9719db5184b316e7cd9139153d8f91f008e9983b2cc8915",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/primary_ppo.pt": "dd68674c77bd444796c678e0223c8cdf7e8a42906a91b7b4a7f8cae69db30da4",
+    "wsl-support/learned_control/outputs/optimized_20261014/seed2437/validation.json": "eea03c355938a2bf1798f51b9d485464bb77177f5c2b212ba34f93077ba3f603",
+    "wsl-support/learned_control/outputs/optimized_20261014/training_summary.json": "536981c63b4b695b27573046fc505289ea7aa62592475d6cf96b818aca91791b",
+    "wsl-support/learned_control/outputs/optimized_20261014/validation_cases.json": "742f88ae43bd41f891091f6f33ab639f983f3b6def5640ebe92e4344d1fc06f7",
+    "wsl-support/learned_control/outputs/optimized_20261014/validation_curve.png": "ed401bec456d641d59cf8ad5c2ec24276af5d6c2b42096e0627a4461c50b02f7",
+    "wsl-support/learned_control/outputs/optimized_20261014/优化实验报告.md": "54555e56bb7325af1316dabc8e871a84067046cc45c4435e60210f16fe459da0",
+    "wsl-support/learned_control/outputs/refined_20261014/best.pt": "ca8563ecf229a94796496a08026c92e0c1871469278627d20b6c5d2398a8f489",
+    "wsl-support/learned_control/outputs/refined_20261014/configuration.json": "befafdf2bf14c53cbc069cacf3111424d3214013944a72e29631f5972ee0be73",
+    "wsl-support/learned_control/outputs/refined_20261014/demonstrations.npz": "82f1e85c65e62aa34d19c41fc05722c96c85a11ede334fc21a095265fae4059e",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/cases.json": "7e3e08a61be31fd8e5ae46af4424fe0f166df8e4df8fcddb3ccb96c65b465e62",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/egl_backend_check/comparison.json": "ece55f61164d70d5ce6397b04fc30b93e09f719e4f84facddca65549d2756e16",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/egl_backend_check/optimized_v2_s2026101450_000.mp4": "6133b27699354e3806f2e8e57d20fbf24d68cd786330d66a2856b8ebc116569c",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/egl_backend_check/optimized_v2_s2026101450_000_trajectory.json": "7ff21696503373dacfd00aadf18eaa9620ec2e85c0a74b9aec2da6bcd664e93a",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/egl_backend_check/previous_main_s2026101450_000.mp4": "998be3b568f0febe7cdf9ad16b34ca50e4315808277cf4b1a01c75a81a8c66d7",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/egl_backend_check/previous_main_s2026101450_000_trajectory.json": "d550b41cd81dcdfd7f2e167fefc3a7916c40dc60ab73eed3003dc97308a1dfdc",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/frozen_models.json": "bac5380232f9c753d964db1227922030b6c3611f170620fe90985577a55a109b",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/mpc_default_demo.mp4": "40e09a6a7cbbe0865ad125d23b97de6245dd49b773637913603b2f4c24a341cc",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/mpc_default_demo_trajectory.json": "148bd143e29a442cd9eabecfbf3cc00a75da488305c07219318755fc5dde0268",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/mpc_s2026101450_000.mp4": "6bd0d6f82cb6fbfe153f8a914cb0f8177eaea66a91cc3d55f246aa1c8e7661f0",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/mpc_s2026101450_000_trajectory.json": "5f716e1067de9a3e709db99b640834a5a39ee804912311be6346de5490c924a9",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/optimized_v2_default_demo.mp4": "d7b36afbf77f9548bc14ea2ff936f27c4daa6e43cc0085137af69521eaf4a4e2",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/optimized_v2_default_demo_trajectory.json": "14bb58fc1d5d7dce2d76e5033570c04381421a4868f289f2d21b3e9e90f0a14a",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/optimized_v2_s2026101450_000.mp4": "9365381078f3fe803e592b169506688979e66fdd24558cb6c37089d356905dd6",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/optimized_v2_s2026101450_000_trajectory.json": "b8449f15e34c5fad2832b2bc1d219bb8301d01a606979b6b3b6ca67f709dcdc3",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/previous_main_default_demo.mp4": "f2a661df81dd28a969a53f3792f31a32a8146501ad271413c5aeba3e3b35a974",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/previous_main_default_demo_trajectory.json": "2e694f2da5dd7f4ae20915e5c0fa5cfb577b10c8a45c78a23f3bf204a1fc3e01",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/previous_main_s2026101450_000.mp4": "4541b8bd6dfbf18f84fbdda245da608f8966b975f387ac08aecd6dbedb11855a",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/previous_main_s2026101450_000_trajectory.json": "b6550bbd3b9904d6e5b3c3f3afbdc5c1ca51081c0dacce880eb1f2d50cc93234",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_imitation_default_demo.mp4": "4fed1b0d9c42908eb6acf0281419677f6186c7965d5bccd34681ad6fdc796438",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_imitation_default_demo_trajectory.json": "14bb58fc1d5d7dce2d76e5033570c04381421a4868f289f2d21b3e9e90f0a14a",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_imitation_s2026101450_000.mp4": "fb84c8b68c18da761f44c9f042af9f5b11c6053d5f0fcc34ac56f2e2088c8372",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_imitation_s2026101450_000_trajectory.json": "7ff21696503373dacfd00aadf18eaa9620ec2e85c0a74b9aec2da6bcd664e93a",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_main_default_demo.mp4": "8d50db28d2ac443f6f1babacf0c0cb46560713495fe33b2a6776fde6d76dd4c1",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_main_default_demo_trajectory.json": "69cc27f442456e257009b7893469ca7d8106809af65e002c13d1639297e3edd7",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_main_s2026101450_000.mp4": "7841ed4d6fe03338ea37f98e25788af50a9b8b14faf5cd6dbac5a68f8ee67985",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/refined_main_s2026101450_000_trajectory.json": "686c70207e9f55ced1ae40aaf73127653eb4a6b506cc3c607551ad66667073c8",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/results.csv": "e341ac8842cb2e9f58124f48a503511d3fdacc8792348a8bf31a700a29f3221c",
+    "wsl-support/learned_control/outputs/refined_20261014/evaluation/summary.json": "10408c7031a857da3cae6176908a40392a21950bdebc605ea0b723e9686ec02d",
+    "wsl-support/learned_control/outputs/refined_20261014/extra_training_cases.json": "25becd0e5ad1378506a58637532d473269990593f023bbda557db33e153e62d2",
+    "wsl-support/learned_control/outputs/refined_20261014/imitation_best.pt": "7e3be8ed9026043f0dcb7001784919ea0046cc0c8ef7116ccdd58c9a7cddbc45",
+    "wsl-support/learned_control/outputs/refined_20261014/initial.pt": "e8a9e7dd9da3b98faf7f99fc0ad7a56e3c105ed7f0a0dec6cdf128bb8af93f72",
+    "wsl-support/learned_control/outputs/refined_20261014/ppo4096.pt": "74331905f94a9a0cd7aedf8b82d33e164eb218415ef26fe6567878c165e9f9ab",
+    "wsl-support/learned_control/outputs/refined_20261014/ppo8192.pt": "93af1b64e03605e84baa822d34985311f6e4c9b37a8e82208ecb485e42d9abdf",
+    "wsl-support/learned_control/outputs/refined_20261014/primary_ppo.pt": "b67608bb106051f89f333eb4f45c963c8d1afbdf500bbee1ea98b59b0438f567",
+    "wsl-support/learned_control/outputs/refined_20261014/primary_selection.json": "18139aabc6c31743fc44a4229c0d00387712962aa52ec1a4bf232137986dec91",
+    "wsl-support/learned_control/outputs/refined_20261014/safety_0_025.pt": "5f49bdcb8cbc9a34ac89e99fea70653a087bf96f593af137c417ce3ca4c0a557",
+    "wsl-support/learned_control/outputs/refined_20261014/safety_0_1.pt": "d5f8a9d228e0c6e2359ba48c3cae6e38dd74f4c23c091433161b30c965ecb164",
+    "wsl-support/learned_control/outputs/refined_20261014/safety_0_4.pt": "785e88634ca3345e57cfab4005c13069387df5b725b04040314ad072ee795a6e",
+    "wsl-support/learned_control/outputs/refined_20261014/training_summary.json": "13dca584bf82a8cac3bcbf52d23ffb6a6f6472ef1ebb60c21c5cc57a5d0d5ad0",
+    "wsl-support/learned_control/outputs/refined_20261014/validation.json": "7ed40b8bd0596bcf5889d594fc38878efb06925de12a83a62f288f832e58c0e0",
+    "wsl-support/learned_control/outputs/refined_20261014/validation_cases.json": "a4f26daa574ab88614ab54866741cfcb9f1b45e03fa3d4e70d74d4f025bf6b2b",
+    "wsl-support/learned_control/refinement_evaluation.log": "513ce1e97cb35a43b2c40caa09c823cae02b470363b0f25dd188709868e1e68f",
+    "wsl-support/learned_control/refinement_train.log": "448b82ea73e7d7b1573a75ff45dc815e667863d926a3d26225d26462c47f0dab",
+    "wsl-support/learned_mpc/collect.log": "848cda7ca17b3a4cf03c8896b3985c6ddb2bbea30ba83bcd0414af211edc26d9",
+    "wsl-support/learned_mpc/outputs/main_20261014/collection_cases.json": "37fcc5af0dd0479576bb93086e6c80e91266b5ba48d4a79455571bf7400e8fda",
+    "wsl-support/learned_mpc/outputs/main_20261014/collection_summary.json": "8ed4d8d7365a40cde6b77412800b47958a1205dcdccaf0143fbae34b730929a7",
+    "wsl-support/learned_mpc/outputs/main_20261014/complete.json": "aa2fb13ddbfb33bcdd6afa25008267c2928102f1963a8a2ff0c14a7587a9c0d1",
+    "wsl-support/learned_mpc/outputs/main_20261014/demo/learned_mpc_default_demo.mp4": "4bcc743686f4e2e03fbb6c0a898ab254c8b97ccad3298e7578a838cf588c234c",
+    "wsl-support/learned_mpc/outputs/main_20261014/demo/learned_mpc_default_demo_trajectory.json": "cdf2382aca77e2f0fb5ae2791877ff694ac9413ac6ec39807ef994e1223e6428",
+    "wsl-support/learned_mpc/outputs/main_20261014/demo/result.json": "95258f955c1c8ce4542d59ca411eaff044e8d52261d7ec43b4623746e4db29ec",
+    "wsl-support/learned_mpc/outputs/main_20261014/fit_history.json": "b01fbf3bc8f34d82f7c5919688bf01895af79ebe6d98b487f096fd5c93fffeb3",
+    "wsl-support/learned_mpc/outputs/main_20261014/open_loop_metrics.json": "fe9abc2fd0d70d22e2d877ec59c9c7661d47bf1a74efe55dd132c81507911042",
+    "wsl-support/learned_mpc/outputs/main_20261014/paired_efficiency.json": "22d043666fed969fe531d7356884052b974b7569c7b3b46d9b1c152d24d2dcca",
+    "wsl-support/learned_mpc/outputs/main_20261014/perception.pt": "814c351ae80b2d7675697ebfce25ff5928f90087ba99ede3745a2f6df154306b",
+    "wsl-support/learned_mpc/outputs/main_20261014/prediction_ablation.json": "71d9ad6a28f4b4497803e37d098141397eef2a8f01cbb7e0c0454d4c4af224ba",
+    "wsl-support/learned_mpc/outputs/main_20261014/prediction_metrics.json": "fa24f966b47b0d5764a93cc1ed41bb0a829b38eed181101c2af47dfa21d14e7a",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/cases.json": "4bd69df46691b08560243de7b2cfae965224b9aa1477fdc85b59b9dafc95a50a",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/frozen_model.json": "25256041a5fa5d07c329b9271a19eff16e4d1e51a1d747b530154b0ad25baab5",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/learned_default_demo.mp4": "31b6d3893156b5f41ed1e12af1410595219bb16a1a3d5c088025fcb800ed4c7f",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/learned_default_demo_trajectory.json": "0a36bd8bc8d8248a7e57fbb27162061343c4e0d7a97fab5b6ccba48edf8b07e8",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/learned_s2026101501_000.mp4": "2ca83131eea4d552243733edaa3191acacdc51a59f890734424093f6a2f13d1e",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/learned_s2026101501_000_trajectory.json": "e51c5c45e979101263919bed3c296a7417cf230d06ace9d9983c61a931320be0",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/mpc_default_demo.mp4": "40e09a6a7cbbe0865ad125d23b97de6245dd49b773637913603b2f4c24a341cc",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/mpc_default_demo_trajectory.json": "148bd143e29a442cd9eabecfbf3cc00a75da488305c07219318755fc5dde0268",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/mpc_s2026101501_000.mp4": "b7a1777316eb45662d20ad7c368ad225d6d63ad6170404be351d59b74391292c",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/mpc_s2026101501_000_trajectory.json": "89427b5fa483ae8f86304021a25f44e6db885926caed8827bc40d9e357b46bf5",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/results.csv": "aa812f1b29792e799098f6e1ac713e47292531607e38faebe950ba353a133266",
+    "wsl-support/learned_mpc/outputs/main_20261014/smoke/summary.json": "7a958ca8d3367a19a4a0cec41a9e88ca4a7b7b393de64daa1cd8da9e8a27dc34",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/cases.json": "d6124b0047e142996d64dc7bb3da952166a3ed3982cbc2908287c6bb39a0cdf2",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/frozen_model.json": "9efc4d1e1f3afdebb1c65fc7872667f6ff0a6cba7ec3b99a61698f870921ebff",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/learned_default_demo.mp4": "26bac5dc9b2626bd9b5c98119719ed3ef3cb8ceb2e491587c6592a0b26757025",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/learned_default_demo_trajectory.json": "cdf2382aca77e2f0fb5ae2791877ff694ac9413ac6ec39807ef994e1223e6428",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/learned_s2026101503_000.mp4": "556cf42ffd12b4f0d9019fcd21d423caed72be6f64edeb25d684b42d339a67bd",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/learned_s2026101503_000_trajectory.json": "7437a55c6e2bcde4c054eb688cfdf18938913b01cac98e0e1913e477c5cb3719",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/mpc_default_demo.mp4": "f455bdce9d3fae0bdcc2700282d3975ad91f7b3142fc09199f5cb84bb9fcc298",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/mpc_default_demo_trajectory.json": "9f387b7beabe90fa37f7c5e78cb0502146c8a94f49e7f9bc7ab01a1efd897ded",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/mpc_s2026101503_000.mp4": "85ad111aed5e1776b55ad75d8814788c74dad354eddc16b2b31b159ac3fcf0d1",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/mpc_s2026101503_000_trajectory.json": "f21b42f1b4c8ad60adceeb7247e540dadace98ebaea6e40b97d29e2a2e55e94b",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/previous_ppo_default_demo.mp4": "fb047c76cac67ff9215c06916785c9662685f5b3eb7fb41ffe2008b213ab24b0",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/previous_ppo_default_demo_trajectory.json": "af0d0d1d7d05d543830b0a67f8eae45370a9dd7bed32993718c51b8423d3618c",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/previous_ppo_s2026101503_000.mp4": "240346020982d33d18b6d8c15bc5ce76afc8c4eb548e28113e8463b19c6f281a",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/previous_ppo_s2026101503_000_trajectory.json": "87a38fb07af65de27f550cdb3a6bab1405014432f5b0d3fd6ee2add27b62a8f3",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/results.csv": "b9f4099305639c7c1fe7f872c7448e81b5f6abc6bb49569491354d5a96e3ba28",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/summary.json": "5388aefe81785ab85c093cf9636477a5c81bf09091f4022e9ae48ff9a3986ed5",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/untrained_world_default_demo.mp4": "6255a3201badfead843c64348517fec1934c8298a09e81e9beaa65e6f62f393a",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/untrained_world_default_demo_trajectory.json": "b5e081e753034550c02bf8ee30709228c324f8d2af789df63cc742b7845f62f7",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/untrained_world_s2026101503_000.mp4": "629a23a9b4d20268a62325d971e0057fc98690cd6f4b0ff93d03b69d0d6600dd",
+    "wsl-support/learned_mpc/outputs/main_20261014/test/untrained_world_s2026101503_000_trajectory.json": "d4c0dc43d79c8e7e76fe96accdc6e73f4a8e8cd827358145ce107a4f92623293",
+    "wsl-support/learned_mpc/outputs/main_20261014/transitions.npz": "ff5e1377890adaaa844623eebcd8fa62aa97f65f495d34b89ebdf6e99035e6d4",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/cases.json": "b6bf77e1a9c21eef9541f6c29c424fa7da615a19fe7ef3e47ec79a59229fe580",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/frozen_model.json": "2d9b6589aa866480f67e46e426f53bc63befab9195b4dbe688bd7defe5a56883",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u025_s2026101502_000.mp4": "a0866e6de3226f1204760a43a088bddb9141b872aba37b52691c4933f31bc321",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u025_s2026101502_000_trajectory.json": "285c399e4e55cf8653330115723d40058939f7662b6e113121f1481f2feda49c",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u05_s2026101502_000.mp4": "35dbe96cbfd0a24854c0660ffd40ef1bdef84cceeda223e17298411e9189f005",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u05_s2026101502_000_trajectory.json": "2955c04f9c9da4bed5952c3c078524c5d83888ea444309c20b83371e181df16c",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u0_s2026101502_000.mp4": "d961589fc7fc498b5ee3c63e5278e5db30edc02d2c4140bf6663b211d0b7ed71",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/learned_u0_s2026101502_000_trajectory.json": "cd7735080938fbaed9c57f82e9012b53f27ffd55b77aca941d28fd48621e0da7",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/results.csv": "39a76347fe777ec74872528e18d4cbf4e000b4bc5cba5ba4ffde1c88daec81c9",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/selection.json": "74ba0ffeac2c9bf4d487bad463d4cab10c0afaf61c0918481d4eaea15930f6b1",
+    "wsl-support/learned_mpc/outputs/main_20261014/validation/summary.json": "b3836ba6a01673ef44679c9cb074d8ec1a8456345c7f515387210d4828ccba9e",
+    "wsl-support/learned_mpc/outputs/main_20261014/world.pt": "dd9a9c5a8cfc937d415a8e31ba8959913dc604225c4e1ffea298ebca277bd8ab",
+    "wsl-support/learned_mpc/outputs/main_20261014/world_empirical.pt": "23564146223c3fa510dea28e871551f71ce5ebd9eb6c75fee6dea3a1e7f4baac",
+    "wsl-support/learned_mpc/outputs/main_20261014/world_empirical_fit_history.json": "52c8be898120f4f8a410d758baa34ea78fcb76bb90972f8e7eacc4eb9347f80e",
+    "wsl-support/learned_mpc/outputs/main_20261014/world_empirical_prediction_metrics.json": "7c078cdc1a672c09b6396757f13e31899003e2f2b30c4b17e0cd75bac05a6ff8",
+    "wsl-support/learned_mpc/smoke.log": "e0cc60b6c5d990c42d2847b9c2f8a63b6159ceca51646a5512bfb2ab81226799",
+    "wsl-support/learned_mpc/test.log": "7cb9009c60365919bcdb00d3f86e01f30b7e7476b4443808d1c1826adb50e6cd",
+    "wsl-support/learned_mpc/train.log": "346f3dffa0c085a5a338dbb19268425992380d8a3683da1a0ee0922afe742e0b",
+    "wsl-support/learned_mpc/train_empirical.log": "ca30fe9c7d7b2ebb514204835b1c4828f6e9bf182757df1e674b4a1a3025d327",
+    "wsl-support/learned_mpc/validation.log": "f0c0f3fa10b73d079d90c8962d5dd7bc9aefabe80d36af1d588dae9355c8da66",
+    "wsl-support/team-share/multiagent-envs-ML_LearnedDynamics_team_20261015.zip": "f8a04b3f0e755466bcc4b1e7faccc4b0d03eda16620a3f0ec517476e40acc003"
   },
-  "hash_policy": "SHA256: text artifacts normalize CRLF to LF; binary models, images, video and zip use exact bytes"
+  "hash_policy": "SHA256: text artifacts normalize CRLF to LF; binary models, images, video and zip use exact bytes",
+  "historical_actor_result": {
+    "checkpoint": "wsl-support/learned_control/outputs/main_20261014/primary_ppo.pt",
+    "course_success": "42/60",
+    "stress_success": "22/30",
+    "default_demo": "caught at step22"
+  },
+  "learned_dynamics": {
+    "route": "trained RGB perception + structured neural dynamics ensemble + MPC",
+    "tests": "37 passed under WSL2 Ubuntu22.04 CPU with EGL offscreen rendering",
+    "additional_checks": [
+      "moved checkpoint loading",
+      "90-row evaluation resume",
+      "frozen-output protection",
+      "changed-seed rejection",
+      "default demo 77-step success"
+    ],
+    "teacher_source_baseline": "ca0f9ab",
+    "teacher_source_diff": "empty",
+    "selection": {
+      "method": "learned_u0",
+      "uncertainty_scale": 0.0,
+      "criterion": "30 validation episodes only"
+    },
+    "frozen_world_sha256": "23564146223c3fa510dea28e871551f71ce5ebd9eb6c75fee6dea3a1e7f4baac",
+    "closed_loop_summary": {
+      "default_demo": {
+        "learned": {
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.20654329147389294,
+            1.0
+          ],
+          "outcomes": {
+            "success": 1
+          },
+          "median_decision_ms": 91.66282199998932
+        },
+        "mpc": {
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.20654329147389294,
+            1.0
+          ],
+          "outcomes": {
+            "success": 1
+          },
+          "median_decision_ms": 70.63472699996964
+        },
+        "previous_ppo": {
+          "episodes": 1,
+          "successes": 0,
+          "success_rate": 0.0,
+          "success_rate_95ci": [
+            0.0,
+            0.7934567085261071
+          ],
+          "outcomes": {
+            "caught": 1
+          },
+          "median_decision_ms": 23.158852500046123
+        },
+        "untrained_world": {
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.20654329147389294,
+            1.0
+          ],
+          "outcomes": {
+            "success": 1
+          },
+          "median_decision_ms": 93.23662600013449
+        }
+      },
+      "fresh_course_holdout": {
+        "learned": {
+          "episodes": 100,
+          "successes": 100,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "outcomes": {
+            "success": 100
+          },
+          "median_decision_ms": 90.90478899997834
+        },
+        "mpc": {
+          "episodes": 100,
+          "successes": 100,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.9630051925239981,
+            0.9999999999999999
+          ],
+          "outcomes": {
+            "success": 100
+          },
+          "median_decision_ms": 70.33870250000973
+        },
+        "previous_ppo": {
+          "episodes": 100,
+          "successes": 69,
+          "success_rate": 0.69,
+          "success_rate_95ci": [
+            0.5937376052204429,
+            0.7722043679386762
+          ],
+          "outcomes": {
+            "caught": 7,
+            "obstacle_collision": 24,
+            "success": 69
+          },
+          "median_decision_ms": 20.712953999918682
+        },
+        "untrained_world": {
+          "episodes": 100,
+          "successes": 97,
+          "success_rate": 0.97,
+          "success_rate_95ci": [
+            0.915479219195973,
+            0.9897456617765851
+          ],
+          "outcomes": {
+            "caught": 3,
+            "success": 97
+          },
+          "median_decision_ms": 91.97314724997341
+        }
+      },
+      "random_obstacles_stress": {
+        "learned": {
+          "episodes": 30,
+          "successes": 30,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.8864829086095221,
+            1.0
+          ],
+          "outcomes": {
+            "success": 30
+          },
+          "median_decision_ms": 93.67830224994123
+        },
+        "mpc": {
+          "episodes": 30,
+          "successes": 30,
+          "success_rate": 1.0,
+          "success_rate_95ci": [
+            0.8864829086095221,
+            1.0
+          ],
+          "outcomes": {
+            "success": 30
+          },
+          "median_decision_ms": 69.32196350010145
+        },
+        "previous_ppo": {
+          "episodes": 30,
+          "successes": 24,
+          "success_rate": 0.8,
+          "success_rate_95ci": [
+            0.6269395261897256,
+            0.9049502189759876
+          ],
+          "outcomes": {
+            "caught": 3,
+            "obstacle_collision": 3,
+            "success": 24
+          },
+          "median_decision_ms": 20.4731175000461
+        },
+        "untrained_world": {
+          "episodes": 30,
+          "successes": 28,
+          "success_rate": 0.9333333333333333,
+          "success_rate_95ci": [
+            0.7867618227892791,
+            0.9815233646723066
+          ],
+          "outcomes": {
+            "caught": 1,
+            "obstacle_collision": 1,
+            "success": 28
+          },
+          "median_decision_ms": 91.59316649999028
+        }
+      }
+    },
+    "limits": [
+      "finite held-out scenarios; no universal success guarantee",
+      "structured kinematic prior retained",
+      "selected uncertainty expansion is zero",
+      "native Windows OpenGL not fully validated"
+    ]
+  }
 }

@@ -16,6 +16,19 @@ from vision_ppo.model import ActorCritic
 
 
 class ImageContractTests(unittest.TestCase):
+    def test_rgb_context_is_hidden_and_keeps_the_original_window_class(self):
+        import pyglet
+        original = pyglet.window.Window
+        env = create_case(random_obstacle_cases(1, 2026101491)[0])
+        try:
+            rgb = render_rgb(env)
+            self.assertFalse(env.viewers[0].window.visible)
+            self.assertIs(pyglet.window.Window, original)
+            detected = self.pixel.detect(rgb)
+            result = errors(env, detected)
+            self.assertLess(max(result[k] for k in ('hunter', 'evader', 'goal', 'obstacles')), 3)
+        finally:
+            close(env)
     @classmethod
     def setUpClass(cls):
         torch.set_num_threads(1)

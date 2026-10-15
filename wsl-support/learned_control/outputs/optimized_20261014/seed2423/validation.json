@@ -1,0 +1,62 @@
+[
+  {
+    "success_rate": 0.8,
+    "outcomes": {
+      "obstacle_collision": 6,
+      "success": 32,
+      "caught": 2
+    },
+    "mean_success_steps": 30.5,
+    "stage": "bc40"
+  },
+  {
+    "success_rate": 0.725,
+    "outcomes": {
+      "caught": 4,
+      "success": 29,
+      "obstacle_collision": 7
+    },
+    "mean_success_steps": 30.551724137931036,
+    "stage": "bc80"
+  },
+  {
+    "success_rate": 0.825,
+    "outcomes": {
+      "success": 33,
+      "obstacle_collision": 5,
+      "caught": 2
+    },
+    "mean_success_steps": 31.666666666666668,
+    "stage": "dagger1"
+  },
+  {
+    "success_rate": 0.75,
+    "outcomes": {
+      "obstacle_collision": 8,
+      "success": 30,
+      "caught": 2
+    },
+    "mean_success_steps": 30.033333333333335,
+    "stage": "dagger2"
+  },
+  {
+    "success_rate": 0.825,
+    "outcomes": {
+      "success": 33,
+      "obstacle_collision": 5,
+      "caught": 2
+    },
+    "mean_success_steps": 31.666666666666668,
+    "stage": "ppo4096"
+  },
+  {
+    "success_rate": 0.825,
+    "outcomes": {
+      "success": 33,
+      "obstacle_collision": 5,
+      "caught": 2
+    },
+    "mean_success_steps": 31.666666666666668,
+    "stage": "ppo8192"
+  }
+]

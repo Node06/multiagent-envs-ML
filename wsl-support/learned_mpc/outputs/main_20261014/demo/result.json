@@ -1,0 +1,14 @@
+{
+  "case": "default_demo",
+  "group": "default_demo",
+  "method": "learned_mpc",
+  "reason": "success",
+  "steps": 77,
+  "decision_including_cnn_p50_ms": 105.36798199996156,
+  "max_center_error_pixels": 6.673091274029145,
+  "mean_center_error_pixels": 0.15633061454033187,
+  "hunter_obstacle_contact_frames": 6,
+  "min_hunter_command_alignment_cosine": 0.9999999999999998,
+  "min_hunter_center_distance": 0.06096029401375033,
+  "learned_prediction_calls": 665280
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "method": "previous_main",
+    "same_reason_and_steps": true,
+    "max_trajectory_difference": 0.016433289274573326
+  },
+  {
+    "method": "optimized_v2",
+    "same_reason_and_steps": true,
+    "max_trajectory_difference": 0.06783533096313477
+  }
+]

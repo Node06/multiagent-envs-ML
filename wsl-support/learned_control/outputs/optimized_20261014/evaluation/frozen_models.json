@@ -1,0 +1,81 @@
+{
+  "previous_main": {
+    "path": "wsl-support/learned_control/outputs/main_20261014/primary_ppo.pt",
+    "sha256": "237eee384539796025b539419ade47c637e73a22cc2f4e9a17bbfec254089e47",
+    "stage": "ppo16384",
+    "validation": {
+      "success_rate": 0.75,
+      "outcomes": {
+        "caught": 5,
+        "success": 30,
+        "obstacle_collision": 5
+      },
+      "mean_success_steps": 35.233333333333334,
+      "stage": "ppo16384"
+    },
+    "seed": 1401
+  },
+  "seed2411": {
+    "path": "wsl-support/learned_control/outputs/optimized_20261014/seed2411/primary_ppo.pt",
+    "sha256": "9194a8249e6556f19f304f7fad148663ccb915647ac21930a721a1ccc279590a",
+    "stage": "ppo4096",
+    "validation": {
+      "success_rate": 0.875,
+      "outcomes": {
+        "obstacle_collision": 5,
+        "success": 35
+      },
+      "mean_success_steps": 31.142857142857142,
+      "stage": "ppo4096"
+    },
+    "seed": 2411
+  },
+  "seed2423": {
+    "path": "wsl-support/learned_control/outputs/optimized_20261014/seed2423/primary_ppo.pt",
+    "sha256": "1959e467fd89249fb5fed6bc0f376f720e56153a984d95d404b7c881fbbd212b",
+    "stage": "ppo4096",
+    "validation": {
+      "success_rate": 0.825,
+      "outcomes": {
+        "success": 33,
+        "obstacle_collision": 5,
+        "caught": 2
+      },
+      "mean_success_steps": 31.666666666666668,
+      "stage": "ppo4096"
+    },
+    "seed": 2423
+  },
+  "seed2437": {
+    "path": "wsl-support/learned_control/outputs/optimized_20261014/seed2437/primary_ppo.pt",
+    "sha256": "dd68674c77bd444796c678e0223c8cdf7e8a42906a91b7b4a7f8cae69db30da4",
+    "stage": "ppo4096",
+    "validation": {
+      "success_rate": 0.8,
+      "outcomes": {
+        "obstacle_collision": 6,
+        "success": 32,
+        "caught": 2
+      },
+      "mean_success_steps": 31.0,
+      "stage": "ppo4096"
+    },
+    "seed": 2437
+  },
+  "optimized_imitation": {
+    "path": "wsl-support/learned_control/outputs/optimized_20261014/seed2411/imitation_best.pt",
+    "sha256": "7bdc3b546078aaab93fb13c34f1c2084df20dde718ebfa0ee88df9a9467fc098",
+    "stage": "dagger2",
+    "validation": {
+      "success_rate": 0.875,
+      "outcomes": {
+        "obstacle_collision": 5,
+        "success": 35
+      },
+      "mean_success_steps": 31.17142857142857,
+      "stage": "dagger2"
+    },
+    "seed": 2411
+  },
+  "selected_main": "seed2411"
+}
