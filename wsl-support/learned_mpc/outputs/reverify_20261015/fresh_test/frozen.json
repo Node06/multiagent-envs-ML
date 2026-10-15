@@ -1,0 +1,32 @@
+{
+  "seed": 2026101517,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.22 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:15:38) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\JiQiXueXiGaiLun_class\\multiagent-envs-ML_team_V2_20261013\\.conda-win310\\python.exe",
+  "torch": "2.6.0+cpu",
+  "checkpoint_sha256": "23564146223c3fa510dea28e871551f71ce5ebd9eb6c75fee6dea3a1e7f4baac",
+  "perception_sha256": "814c351ae80b2d7675697ebfce25ff5928f90087ba99ede3745a2f6df154306b",
+  "adapter_sha256": "dc600d90143a08c58ecb1dc4d036e1f3b7945cfc82b08dc7f407ed0eff8e793f",
+  "config": {
+    "dt": 0.1,
+    "grid_resolution": 0.02,
+    "obstacle_clearance": 0.09,
+    "map_bound": 0.8,
+    "horizon": 30,
+    "samples": 72,
+    "iterations": 2,
+    "chunk_steps": 5,
+    "hunter_clearance": 0.07,
+    "max_steps": 500,
+    "seed": 42,
+    "lookahead": 0.22,
+    "hunter_weight": 1.5,
+    "uncertainty_scale": 0.0
+  },
+  "selection": {
+    "method": "learned_u0",
+    "uncertainty_scale": 0.0,
+    "criterion": "30 validation episodes only"
+  },
+  "protocol": "Frozen weights/config; fresh seeds; no training or tuning; all episodes recorded"
+}

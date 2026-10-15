@@ -1,0 +1,14 @@
+{
+  "case": "default_demo",
+  "group": "default_demo",
+  "method": "learned_mpc",
+  "reason": "perception_failure",
+  "steps": 0,
+  "decision_including_cnn_p50_ms": null,
+  "max_center_error_pixels": null,
+  "mean_center_error_pixels": null,
+  "hunter_obstacle_contact_frames": 0,
+  "min_hunter_command_alignment_cosine": null,
+  "min_hunter_center_distance": null,
+  "learned_prediction_calls": 0
+}

@@ -1,0 +1,25 @@
+{
+  "members": 3,
+  "episode_split_disjoint": true,
+  "transitions": {
+    "train": 8473,
+    "validation": 2144,
+    "test": 2006
+  },
+  "episodes": {
+    "train": 120,
+    "validation": 30,
+    "test": 30
+  },
+  "torch_numpy_max_abs_difference": 4.470348358154297e-08,
+  "test_transitions": 2006,
+  "trained": {
+    "mean_next_position_error_pixels": 0.38874202966690063,
+    "p95_next_position_error_pixels": 0.8456477224826813
+  },
+  "untrained": {
+    "mean_next_position_error_pixels": 1.068927526473999,
+    "p95_next_position_error_pixels": 2.79498553276062
+  },
+  "frozen_checkpoint_matches_previous_test": true
+}

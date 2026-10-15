@@ -1,0 +1,12 @@
+{
+  "csv_summary_consistent": true,
+  "videos_checked": 151,
+  "all_first_last_frames_decodable": true,
+  "all_video_frame_counts_match_steps": true,
+  "all_trajectory_lengths_match_steps": true,
+  "all_actions_finite_and_bounded": true,
+  "maximum_action_norm": 1.0000000000000002,
+  "course_max_center_error_pixels": 7.422812790207612,
+  "course_mean_episode_center_error_pixels": 0.23194432288819355,
+  "model_and_perception_weights_unchanged": true
+}

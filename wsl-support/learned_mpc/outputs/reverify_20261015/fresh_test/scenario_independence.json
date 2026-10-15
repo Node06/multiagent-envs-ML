@@ -1,0 +1,7 @@
+{
+  "fresh_scenarios": 150,
+  "unique_fresh_scenarios": 150,
+  "overlap_with_collection": [],
+  "overlap_with_previous_closed_loop_test": [],
+  "default_demo_excluded_from_independence_claim": true
+}

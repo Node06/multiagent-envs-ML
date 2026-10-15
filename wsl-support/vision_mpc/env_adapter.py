@@ -17,7 +17,13 @@ class _HiddenWindowModule:
 
     def Window(self, *args, **kwargs):
         kwargs['visible'] = False
-        return self._module.Window(*args, **kwargs)
+        window = self._module.Window(*args, **kwargs)
+        if sys.platform == 'win32':
+            # Hidden Win32 windows may never receive the initial resize event.
+            # Initialize pyglet's pixel projection before the first RGB render.
+            window.switch_to()
+            window.on_resize(window.width, window.height)
+        return window
 
     def __getattr__(self, name):
         return getattr(self._module, name)

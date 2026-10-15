@@ -1,0 +1,190 @@
+{
+  "groups": {
+    "corner_start": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 64.5,
+      "median_episode_decision_p50_ms": 123.93925000026229
+    },
+    "default_demo": {
+      "episodes": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "ci95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "outcomes": {
+        "success": 1
+      },
+      "mean_steps": 72.0,
+      "median_episode_decision_p50_ms": 125.30145000005177
+    },
+    "edge_goal": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 41.0,
+      "median_episode_decision_p50_ms": 121.66255000011006
+    },
+    "fresh_course_holdout": {
+      "episodes": 100,
+      "successes": 100,
+      "success_rate": 1.0,
+      "ci95": [
+        0.9630051925239981,
+        0.9999999999999999
+      ],
+      "outcomes": {
+        "success": 100
+      },
+      "mean_steps": 32.49,
+      "median_episode_decision_p50_ms": 122.88757500004976
+    },
+    "hunter_blocks_route": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 45.5,
+      "median_episode_decision_p50_ms": 125.23402499994063
+    },
+    "hunter_gap_008_012": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 37.0,
+      "median_episode_decision_p50_ms": 122.53397500001029
+    },
+    "hunter_gap_012_020": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 29.5,
+      "median_episode_decision_p50_ms": 122.71777499995551
+    },
+    "hunter_gap_020_035": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 30.0,
+      "median_episode_decision_p50_ms": 121.11780000009276
+    },
+    "long_route": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 64.0,
+      "median_episode_decision_p50_ms": 124.96759999999085
+    },
+    "near_obstacle_goal": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 38.0,
+      "median_episode_decision_p50_ms": 122.01249999998254
+    },
+    "near_obstacle_start": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 37.5,
+      "median_episode_decision_p50_ms": 121.63022499998988
+    },
+    "ordinary": {
+      "episodes": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "outcomes": {
+        "success": 2
+      },
+      "mean_steps": 12.5,
+      "median_episode_decision_p50_ms": 120.38734999998724
+    },
+    "random_obstacles_stress": {
+      "episodes": 30,
+      "successes": 30,
+      "success_rate": 1.0,
+      "ci95": [
+        0.8864829086095221,
+        1.0
+      ],
+      "outcomes": {
+        "success": 30
+      },
+      "mean_steps": 34.5,
+      "median_episode_decision_p50_ms": 123.196949999965
+    }
+  },
+  "episodes": 151,
+  "protected_originals_unchanged": true,
+  "weights_unchanged": true,
+  "elapsed_this_invocation_seconds": 792.5869087000001
+}

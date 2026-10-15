@@ -1,0 +1,66 @@
+{
+  "作业完成情况核查与汇报框架_20261015.md": {
+    "bytes": 14923,
+    "sha256": "75cba8cfaec7d4568a9d659451408d5b32ab88d2fee9d43e3e1b986f282c6fc6"
+  },
+  "实际复测报告_20261015.md": {
+    "bytes": 7943,
+    "sha256": "481a4f280b737f67d5f243fe7d497624d4c841f728459dbee5b48b71b16279b2"
+  },
+  "wsl-support/learned_mpc/reverify.py": {
+    "bytes": 4844,
+    "sha256": "41a8587e808ad823d8ac34813c579c9d8ab7bf6e6a62334d7d619922e44d04cb"
+  },
+  "wsl-support/vision_mpc/env_adapter.py": {
+    "bytes": 2799,
+    "sha256": "dc600d90143a08c58ecb1dc4d036e1f3b7945cfc82b08dc7f407ed0eff8e793f"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/independent_prediction_check.json": {
+    "bytes": 646,
+    "sha256": "9e03d1802fbbb4ebca969fbbe14ca94bd2a7c7c53b8ff6cd065355b5538fe81c"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/projection_initialized.png": {
+    "bytes": 16018,
+    "sha256": "5921e8e5c5231cde45f6e7afb01cd10f027142327fd95ab61a41c9bebe3fb5e1"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/raw_frame_0.png": {
+    "bytes": 6183,
+    "sha256": "a58823e574e333532050cbda5a3ddcb631820582a1ceb27deb2f55d70abaae18"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/default_demo/result.json": {
+    "bytes": 412,
+    "sha256": "c4b67d044977812e6b542b48105b22e90133882b2bfb954a3578cec6477d6f4d"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/artifact_validation.json": {
+    "bytes": 465,
+    "sha256": "676b59b2c95c4fe87a46d40eaf0ead3f94aea2941ce2b80549fcc9e29967e571"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/cases.json": {
+    "bytes": 58460,
+    "sha256": "a543873ffc3493bdb47d98e50ef02b59e16e9d93c61518a6ce5487a2ad504056"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/frozen.json": {
+    "bytes": 1182,
+    "sha256": "ae95cdada341c749dd23940c2a9bb4c2d23f469dd40df0c154e7f70dfb436eaa"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/learned_mpc_default_demo.mp4": {
+    "bytes": 200669,
+    "sha256": "15c36e4838e804d18d4459065b5e850c286d46a2f5fada430997331ee4d954f1"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/learned_mpc_default_demo_trajectory.json": {
+    "bytes": 12549,
+    "sha256": "97ace3e167f15cd63deaab4e29faac98c3cddb529d25af8734f6c5684c9fa061"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/results.csv": {
+    "bytes": 26118,
+    "sha256": "7a57dcdafe5dc799be1c0424645bbe2121763440ac84dc1ce64b711c6f2dfcb8"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/scenario_independence.json": {
+    "bytes": 205,
+    "sha256": "094425f5019e811823ceb1a6f2cf09c26d1b98b038680abb247418ccbf3e9c2b"
+  },
+  "wsl-support/learned_mpc/outputs/reverify_20261015/fresh_test/summary.json": {
+    "bytes": 4323,
+    "sha256": "832fc454cc635d9fc1154b3d0a19fa8192e9620ca224e5be14e754c500a26a8a"
+  }
+}
